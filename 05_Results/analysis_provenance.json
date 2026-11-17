@@ -1,0 +1,20 @@
+{
+  "current_recomputed": {
+    "external_next_function_prediction": "external_scores.json; reproduce.py",
+    "sample_and_function_descriptives": "sample_counts.json, functional_patterns.json; reproduce.py",
+    "shared_semantic_strategies": "shared_strategies.json; reproduce.py",
+    "two_part_outcomes": "regression_results.json; reproduce_outcomes.py",
+    "adjusted_process_associations": "process_associations.json; reproduce_outcomes.py",
+    "hierarchical_sensitivity": "hierarchical_results.json; reproduce_outcomes.py; Bayesian fits use variational approximation",
+    "matching_and_selection_reweighting": "sensitivity_results.json; reproduce_sensitivity.py",
+    "contextual_lexical_embedding": "comparison_embeddings.json; reproduce_embedding_summary.py; Figure 8c–d and S6 use the explicit MiniLM implementation."
+  },
+  "retained_from_supplied_manuscripts": [
+    "OM clustering and process mining",
+    "complete-function-set Markov cross-validation",
+    "LightGBM and SHAP",
+    "source-isolated pattern check split"
+  ],
+  "lexical_fields": "comparison_pairs.json retains word-token operation codes for the semantic-strategy cross-tabulation (Figure 8a–b). comparison_embedding_metrics.csv contains the separately defined content-word and embedding measures (Figure 8c–d, S6, Table S5).",
+  "embedding_method": "New explicit implementation on the fixed contextual comparison frame; exact historical model identity is not established. See embedding_method.json for the executed model and settings."
+}

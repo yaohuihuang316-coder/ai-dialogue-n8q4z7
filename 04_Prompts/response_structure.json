@@ -1,0 +1,124 @@
+{
+  "rules_version": "R4_V13",
+  "source_key": "<source identifier>",
+  "input_hash": "<unchanged input hash>",
+  "tasks": [
+    {
+      "task_id": "<task identifier>",
+      "user_message_ids": [
+        "<message identifiers>"
+      ],
+      "opening": {
+        "primary_subtype": "<21-category code>",
+        "goal_clarity": "clear|partial|unclear",
+        "background_present": "yes|no|uncertain",
+        "constraints_present": "yes|no|uncertain",
+        "checkable_deliverable": "yes|partial|no|uncertain"
+      },
+      "goal_versions": [
+        {
+          "goal_version_id": "<identifier>",
+          "status": "A|B|C|D|review_pending",
+          "first_attained_at": null,
+          "right_censored": false,
+          "evidence": [
+            {
+              "message_id": "<id>",
+              "quote": "<literal quote>",
+              "reason": "<decision basis>"
+            }
+          ]
+        }
+      ],
+      "task_result": "A|B|C|D|review_pending",
+      "outcome_questions": "Use the Q1–Q9 fields defined in V13_coding_prompt.txt"
+    }
+  ],
+  "actions": [
+    {
+      "unit_id": "<unchanged identifier>",
+      "previous_user_message_id": "<id>",
+      "target_user_message_id": "<id>",
+      "task_id": "<task identifier>",
+      "task_relation": "same_task|new_task|uncertain",
+      "labels": {
+        "C01": {
+          "value": "yes|no|uncertain|not_reviewed",
+          "subtypes": [],
+          "evidence": []
+        },
+        "C02": {
+          "value": "yes|no|uncertain|not_reviewed",
+          "subtypes": [],
+          "evidence": []
+        },
+        "C03": {
+          "value": "yes|no|uncertain|not_reviewed",
+          "subtypes": [],
+          "evidence": []
+        },
+        "C04": {
+          "value": "yes|no|uncertain|not_reviewed",
+          "subtypes": [],
+          "evidence": []
+        },
+        "C05": {
+          "value": "yes|no|uncertain|not_reviewed",
+          "subtypes": [],
+          "evidence": []
+        },
+        "C06": {
+          "value": "yes|no|uncertain|not_reviewed",
+          "subtypes": [],
+          "evidence": []
+        },
+        "C07": {
+          "value": "yes|no|uncertain|not_reviewed",
+          "subtypes": [],
+          "evidence": []
+        },
+        "C08": {
+          "value": "yes|no|uncertain|not_reviewed",
+          "subtypes": [],
+          "evidence": []
+        },
+        "C09": {
+          "value": "yes|no|uncertain|not_reviewed",
+          "subtypes": [],
+          "evidence": []
+        },
+        "C10": {
+          "value": "yes|no|uncertain|not_reviewed",
+          "subtypes": [],
+          "evidence": []
+        },
+        "C11": {
+          "value": "yes|no|uncertain|not_reviewed",
+          "subtypes": [],
+          "evidence": []
+        },
+        "C12": {
+          "value": "yes|no|uncertain|not_reviewed",
+          "subtypes": [],
+          "evidence": []
+        },
+        "C13": {
+          "value": "yes|no|uncertain|not_reviewed",
+          "subtypes": [],
+          "evidence": []
+        },
+        "C14": {
+          "value": "yes|no|uncertain|not_reviewed",
+          "subtypes": [],
+          "evidence": []
+        },
+        "C15": {
+          "value": "yes|no|uncertain|not_reviewed",
+          "subtypes": [],
+          "evidence": []
+        }
+      },
+      "return_to_task_id": null
+    }
+  ]
+}

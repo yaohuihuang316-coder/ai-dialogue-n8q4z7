@@ -1,0 +1,631 @@
+[
+  {
+    "exposure": "G1_then_G3",
+    "outcome": "y2",
+    "tasks": 1090,
+    "sources": 1023,
+    "exposed": 416,
+    "exposed_positive": 397,
+    "control_positive": 599,
+    "IPW": 0.06336734968788515,
+    "ATO": 0.06197725967372192,
+    "AIPW": 0.061953076639132736,
+    "AIPW_CI95": [
+      0.027768680455792512,
+      0.09613747282247295
+    ],
+    "max_SMD": {
+      "unweighted": 0.4293170120996214,
+      "IPW": 0.08584472762345467,
+      "ATO": 0.012692892945152403
+    },
+    "propensity_clipped": 0,
+    "folds": [
+      {
+        "fold": 0,
+        "test_sources": 205,
+        "train_sources": 818,
+        "ps_fit": "Firth_FLIC",
+        "outcome1_fit": "Firth_FLIC",
+        "outcome0_fit": "Firth_FLIC",
+        "source_disjoint": true
+      },
+      {
+        "fold": 1,
+        "test_sources": 202,
+        "train_sources": 821,
+        "ps_fit": "Firth_FLIC",
+        "outcome1_fit": "Firth_FLIC",
+        "outcome0_fit": "Firth_FLIC",
+        "source_disjoint": true
+      },
+      {
+        "fold": 2,
+        "test_sources": 206,
+        "train_sources": 817,
+        "ps_fit": "MLE",
+        "outcome1_fit": "Firth_FLIC",
+        "outcome0_fit": "Firth_FLIC",
+        "source_disjoint": true
+      },
+      {
+        "fold": 3,
+        "test_sources": 205,
+        "train_sources": 818,
+        "ps_fit": "Firth_FLIC",
+        "outcome1_fit": "Firth_FLIC",
+        "outcome0_fit": "Firth_FLIC",
+        "source_disjoint": true
+      },
+      {
+        "fold": 4,
+        "test_sources": 205,
+        "train_sources": 818,
+        "ps_fit": "Firth_FLIC",
+        "outcome1_fit": "Firth_FLIC",
+        "outcome0_fit": "Firth_FLIC",
+        "source_disjoint": true
+      }
+    ],
+    "design_names": [
+      "intercept",
+      "need_A",
+      "need_D",
+      "need_F",
+      "need_M",
+      "need_P",
+      "need_S",
+      "need_X",
+      "need_Y",
+      "clear",
+      "background",
+      "constraints",
+      "deliverable_yes",
+      "deliverable_partial",
+      "Search_Arena",
+      "length_2",
+      "length_3",
+      "length_4",
+      "length_5",
+      "length_6",
+      "length_7"
+    ],
+    "excluded_tasks": 4010,
+    "sample": "all",
+    "IPW_CI95": [
+      0.031986173161716175,
+      0.09410820799320933
+    ],
+    "ATO_CI95": [
+      0.02859570459851777,
+      0.09235953487857923
+    ],
+    "bootstrap_requested": 1000,
+    "bootstrap_success": 1000,
+    "bootstrap_failures": []
+  },
+  {
+    "exposure": "G1_then_G3",
+    "outcome": "y1",
+    "tasks": 2272,
+    "sources": 2062,
+    "exposed": 863,
+    "exposed_positive": 416,
+    "control_positive": 674,
+    "IPW": 0.006255250355207687,
+    "ATO": -0.0019038849320610618,
+    "AIPW": 0.017277943534938105,
+    "AIPW_CI95": [
+      -0.02964768645165064,
+      0.06420357352152685
+    ],
+    "max_SMD": {
+      "unweighted": 0.49391848538909866,
+      "IPW": 0.07106456380666906,
+      "ATO": 4.966656972072617e-09
+    },
+    "propensity_clipped": 0,
+    "folds": [
+      {
+        "fold": 0,
+        "test_sources": 414,
+        "train_sources": 1648,
+        "ps_fit": "MLE",
+        "outcome1_fit": "Firth_FLIC",
+        "outcome0_fit": "MLE",
+        "source_disjoint": true
+      },
+      {
+        "fold": 1,
+        "test_sources": 412,
+        "train_sources": 1650,
+        "ps_fit": "MLE",
+        "outcome1_fit": "Firth_FLIC",
+        "outcome0_fit": "MLE",
+        "source_disjoint": true
+      },
+      {
+        "fold": 2,
+        "test_sources": 410,
+        "train_sources": 1652,
+        "ps_fit": "MLE",
+        "outcome1_fit": "Firth_FLIC",
+        "outcome0_fit": "Firth_FLIC",
+        "source_disjoint": true
+      },
+      {
+        "fold": 3,
+        "test_sources": 412,
+        "train_sources": 1650,
+        "ps_fit": "MLE",
+        "outcome1_fit": "Firth_FLIC",
+        "outcome0_fit": "Firth_FLIC",
+        "source_disjoint": true
+      },
+      {
+        "fold": 4,
+        "test_sources": 414,
+        "train_sources": 1648,
+        "ps_fit": "MLE",
+        "outcome1_fit": "Firth_FLIC",
+        "outcome0_fit": "MLE",
+        "source_disjoint": true
+      }
+    ],
+    "design_names": [
+      "intercept",
+      "need_A",
+      "need_D",
+      "need_F",
+      "need_M",
+      "need_P",
+      "need_S",
+      "need_X",
+      "need_Y",
+      "clear",
+      "background",
+      "constraints",
+      "deliverable_yes",
+      "deliverable_partial",
+      "Search_Arena",
+      "length_2",
+      "length_3",
+      "length_4",
+      "length_5",
+      "length_6",
+      "length_7"
+    ],
+    "excluded_tasks": 2828,
+    "sample": "all",
+    "IPW_CI95": [
+      -0.04078351672489032,
+      0.052232176377732996
+    ],
+    "ATO_CI95": [
+      -0.04558274167474484,
+      0.04196685565966972
+    ],
+    "bootstrap_requested": 1000,
+    "bootstrap_success": 1000,
+    "bootstrap_failures": []
+  },
+  {
+    "exposure": "G2",
+    "outcome": "y2",
+    "tasks": 1500,
+    "sources": 1253,
+    "exposed": 950,
+    "exposed_positive": 841,
+    "control_positive": 523,
+    "IPW": -0.06824481714390984,
+    "ATO": -0.07254192769137946,
+    "AIPW": -0.06703842875128987,
+    "AIPW_CI95": [
+      -0.09674295939726943,
+      -0.03733389810531032
+    ],
+    "max_SMD": {
+      "unweighted": 0.560013285118075,
+      "IPW": 0.03276440686002071,
+      "ATO": 0.009678737238774993
+    },
+    "propensity_clipped": 0,
+    "folds": [
+      {
+        "fold": 0,
+        "test_sources": 252,
+        "train_sources": 1001,
+        "ps_fit": "Firth_FLIC",
+        "outcome1_fit": "Firth_FLIC",
+        "outcome0_fit": "Firth_FLIC",
+        "source_disjoint": true
+      },
+      {
+        "fold": 1,
+        "test_sources": 249,
+        "train_sources": 1004,
+        "ps_fit": "Firth_FLIC",
+        "outcome1_fit": "Firth_FLIC",
+        "outcome0_fit": "Firth_FLIC",
+        "source_disjoint": true
+      },
+      {
+        "fold": 2,
+        "test_sources": 248,
+        "train_sources": 1005,
+        "ps_fit": "Firth_FLIC",
+        "outcome1_fit": "Firth_FLIC",
+        "outcome0_fit": "Firth_FLIC",
+        "source_disjoint": true
+      },
+      {
+        "fold": 3,
+        "test_sources": 252,
+        "train_sources": 1001,
+        "ps_fit": "MLE",
+        "outcome1_fit": "Firth_FLIC",
+        "outcome0_fit": "Firth_FLIC",
+        "source_disjoint": true
+      },
+      {
+        "fold": 4,
+        "test_sources": 252,
+        "train_sources": 1001,
+        "ps_fit": "Firth_FLIC",
+        "outcome1_fit": "Firth_FLIC",
+        "outcome0_fit": "Firth_FLIC",
+        "source_disjoint": true
+      }
+    ],
+    "design_names": [
+      "intercept",
+      "need_A",
+      "need_D",
+      "need_F",
+      "need_M",
+      "need_P",
+      "need_S",
+      "need_X",
+      "need_Y",
+      "clear",
+      "background",
+      "constraints",
+      "deliverable_yes",
+      "deliverable_partial",
+      "Search_Arena",
+      "length_2",
+      "length_3",
+      "length_4",
+      "length_5",
+      "length_6",
+      "length_7"
+    ],
+    "excluded_tasks": 3600,
+    "sample": "all",
+    "IPW_CI95": [
+      -0.09534372540874186,
+      -0.03902079016288583
+    ],
+    "ATO_CI95": [
+      -0.10068262847965846,
+      -0.04193827249355115
+    ],
+    "bootstrap_requested": 1000,
+    "bootstrap_success": 1000,
+    "bootstrap_failures": []
+  },
+  {
+    "exposure": "G4",
+    "outcome": "y2",
+    "tasks": 1500,
+    "sources": 1253,
+    "exposed": 248,
+    "exposed_positive": 179,
+    "control_positive": 1185,
+    "IPW": -0.25184020875328106,
+    "ATO": -0.2143716437279174,
+    "AIPW": -0.24141433012766123,
+    "AIPW_CI95": [
+      -0.32021719438212604,
+      -0.16261146587319644
+    ],
+    "max_SMD": {
+      "unweighted": 0.44355135641359467,
+      "IPW": 0.07896653859488073,
+      "ATO": 0.0138568299321637
+    },
+    "propensity_clipped": 0,
+    "folds": [
+      {
+        "fold": 0,
+        "test_sources": 251,
+        "train_sources": 1002,
+        "ps_fit": "Firth_FLIC",
+        "outcome1_fit": "Firth_FLIC",
+        "outcome0_fit": "Firth_FLIC",
+        "source_disjoint": true
+      },
+      {
+        "fold": 1,
+        "test_sources": 251,
+        "train_sources": 1002,
+        "ps_fit": "Firth_FLIC",
+        "outcome1_fit": "Firth_FLIC",
+        "outcome0_fit": "Firth_FLIC",
+        "source_disjoint": true
+      },
+      {
+        "fold": 2,
+        "test_sources": 251,
+        "train_sources": 1002,
+        "ps_fit": "Firth_FLIC",
+        "outcome1_fit": "Firth_FLIC",
+        "outcome0_fit": "Firth_FLIC",
+        "source_disjoint": true
+      },
+      {
+        "fold": 3,
+        "test_sources": 249,
+        "train_sources": 1004,
+        "ps_fit": "MLE",
+        "outcome1_fit": "Firth_FLIC",
+        "outcome0_fit": "MLE",
+        "source_disjoint": true
+      },
+      {
+        "fold": 4,
+        "test_sources": 251,
+        "train_sources": 1002,
+        "ps_fit": "Firth_FLIC",
+        "outcome1_fit": "Firth_FLIC",
+        "outcome0_fit": "Firth_FLIC",
+        "source_disjoint": true
+      }
+    ],
+    "design_names": [
+      "intercept",
+      "need_A",
+      "need_D",
+      "need_F",
+      "need_M",
+      "need_P",
+      "need_S",
+      "need_X",
+      "need_Y",
+      "clear",
+      "background",
+      "constraints",
+      "deliverable_yes",
+      "deliverable_partial",
+      "Search_Arena",
+      "length_2",
+      "length_3",
+      "length_4",
+      "length_5",
+      "length_6",
+      "length_7"
+    ],
+    "excluded_tasks": 3600,
+    "sample": "all",
+    "IPW_CI95": [
+      -0.3264765661672809,
+      -0.1794756456961345
+    ],
+    "ATO_CI95": [
+      -0.2700339668533846,
+      -0.158938050621903
+    ],
+    "bootstrap_requested": 1000,
+    "bootstrap_success": 1000,
+    "bootstrap_failures": []
+  },
+  {
+    "exposure": "constraints",
+    "outcome": "y1",
+    "tasks": 5100,
+    "sources": 2405,
+    "exposed": 1649,
+    "exposed_positive": 565,
+    "control_positive": 1931,
+    "IPW": -0.18315793813246933,
+    "ATO": -0.2199747449706796,
+    "AIPW": -0.21298228951299417,
+    "AIPW_CI95": [
+      -0.26349950821846585,
+      -0.16246507080752248
+    ],
+    "max_SMD": {
+      "unweighted": 0.4922247991121772,
+      "IPW": 0.08729586745135147,
+      "ATO": 0.0002953629176488105
+    },
+    "propensity_clipped": 8,
+    "folds": [
+      {
+        "fold": 0,
+        "test_sources": 484,
+        "train_sources": 1921,
+        "ps_fit": "MLE",
+        "outcome1_fit": "Firth_FLIC",
+        "outcome0_fit": "MLE",
+        "source_disjoint": true
+      },
+      {
+        "fold": 1,
+        "test_sources": 484,
+        "train_sources": 1921,
+        "ps_fit": "MLE",
+        "outcome1_fit": "Firth_FLIC",
+        "outcome0_fit": "MLE",
+        "source_disjoint": true
+      },
+      {
+        "fold": 2,
+        "test_sources": 482,
+        "train_sources": 1923,
+        "ps_fit": "MLE",
+        "outcome1_fit": "Firth_FLIC",
+        "outcome0_fit": "MLE",
+        "source_disjoint": true
+      },
+      {
+        "fold": 3,
+        "test_sources": 477,
+        "train_sources": 1928,
+        "ps_fit": "MLE",
+        "outcome1_fit": "Firth_FLIC",
+        "outcome0_fit": "MLE",
+        "source_disjoint": true
+      },
+      {
+        "fold": 4,
+        "test_sources": 478,
+        "train_sources": 1927,
+        "ps_fit": "MLE",
+        "outcome1_fit": "Firth_FLIC",
+        "outcome0_fit": "MLE",
+        "source_disjoint": true
+      }
+    ],
+    "design_names": [
+      "intercept",
+      "need_A",
+      "need_D",
+      "need_F",
+      "need_M",
+      "need_P",
+      "need_S",
+      "need_X",
+      "need_Y",
+      "clear",
+      "background",
+      "deliverable_yes",
+      "deliverable_partial",
+      "Search_Arena",
+      "length_2",
+      "length_3",
+      "length_4",
+      "length_5",
+      "length_6",
+      "length_7"
+    ],
+    "excluded_tasks": 0,
+    "sample": "all",
+    "IPW_CI95": [
+      -0.2236544080344671,
+      -0.13179089806266395
+    ],
+    "ATO_CI95": [
+      -0.2517142499011582,
+      -0.18584244071425435
+    ],
+    "bootstrap_requested": 1000,
+    "bootstrap_success": 1000,
+    "bootstrap_failures": []
+  },
+  {
+    "exposure": "G1_then_G3",
+    "outcome": "y2",
+    "tasks": 1034,
+    "sources": 967,
+    "exposed": 391,
+    "exposed_positive": 372,
+    "control_positive": 573,
+    "IPW": 0.06006567922449535,
+    "ATO": 0.05914172562945663,
+    "AIPW": 0.05122258388019461,
+    "AIPW_CI95": [
+      0.01600098117055513,
+      0.08644418658983408
+    ],
+    "max_SMD": {
+      "unweighted": 0.43754808029564646,
+      "IPW": 0.10227593199691497,
+      "ATO": 0.014534981930882516
+    },
+    "propensity_clipped": 0,
+    "folds": [
+      {
+        "fold": 0,
+        "test_sources": 194,
+        "train_sources": 773,
+        "ps_fit": "Firth_FLIC",
+        "outcome1_fit": "Firth_FLIC",
+        "outcome0_fit": "Firth_FLIC",
+        "source_disjoint": true
+      },
+      {
+        "fold": 1,
+        "test_sources": 194,
+        "train_sources": 773,
+        "ps_fit": "Firth_FLIC",
+        "outcome1_fit": "Firth_FLIC",
+        "outcome0_fit": "Firth_FLIC",
+        "source_disjoint": true
+      },
+      {
+        "fold": 2,
+        "test_sources": 192,
+        "train_sources": 775,
+        "ps_fit": "Firth_FLIC",
+        "outcome1_fit": "Firth_FLIC",
+        "outcome0_fit": "Firth_FLIC",
+        "source_disjoint": true
+      },
+      {
+        "fold": 3,
+        "test_sources": 194,
+        "train_sources": 773,
+        "ps_fit": "MLE",
+        "outcome1_fit": "Firth_FLIC",
+        "outcome0_fit": "Firth_FLIC",
+        "source_disjoint": true
+      },
+      {
+        "fold": 4,
+        "test_sources": 193,
+        "train_sources": 774,
+        "ps_fit": "Firth_FLIC",
+        "outcome1_fit": "Firth_FLIC",
+        "outcome0_fit": "Firth_FLIC",
+        "source_disjoint": true
+      }
+    ],
+    "design_names": [
+      "intercept",
+      "need_A",
+      "need_D",
+      "need_F",
+      "need_M",
+      "need_P",
+      "need_S",
+      "need_X",
+      "need_Y",
+      "clear",
+      "background",
+      "constraints",
+      "deliverable_yes",
+      "deliverable_partial",
+      "Search_Arena",
+      "length_2",
+      "length_3",
+      "length_4",
+      "length_5",
+      "length_6",
+      "length_7"
+    ],
+    "excluded_tasks": 3658,
+    "sample": "WildChat",
+    "IPW_CI95": [
+      0.024212046972158556,
+      0.09122464881191195
+    ],
+    "ATO_CI95": [
+      0.025146891118470918,
+      0.09156429725296535
+    ],
+    "bootstrap_requested": 1000,
+    "bootstrap_success": 1000,
+    "bootstrap_failures": []
+  }
+]

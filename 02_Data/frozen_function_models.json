@@ -1,0 +1,626 @@
+{
+  "1": [
+    {
+      "group": "G1",
+      "diagnostics": {
+        "M1": {
+          "kept_columns": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "constant_columns": [],
+          "train_groups": 2062,
+          "train_rows": 7776,
+          "train_positives": 3954,
+          "success": true,
+          "loss": 0.5914341508259247,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "iterations": 14,
+          "coefficients": [
+            -0.5037863518236549,
+            1.4934870477267794,
+            -0.26675009658179744,
+            -0.22092442030964,
+            -0.04192763972274237,
+            -0.435970780591176
+          ],
+          "reason": "fitted"
+        }
+      }
+    },
+    {
+      "group": "G2",
+      "diagnostics": {
+        "M1": {
+          "kept_columns": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "constant_columns": [],
+          "train_groups": 2062,
+          "train_rows": 7776,
+          "train_positives": 3301,
+          "success": true,
+          "loss": 0.633752178572108,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "iterations": 10,
+          "coefficients": [
+            -0.540488754273371,
+            -0.3990437431492848,
+            0.988544907872946,
+            0.11777326033831846,
+            0.1324732389612094,
+            0.10281262777271057
+          ],
+          "reason": "fitted"
+        }
+      }
+    },
+    {
+      "group": "G3",
+      "diagnostics": {
+        "M1": {
+          "kept_columns": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "constant_columns": [],
+          "train_groups": 2062,
+          "train_rows": 7776,
+          "train_positives": 3327,
+          "success": true,
+          "loss": 0.5804235782565365,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "iterations": 15,
+          "coefficients": [
+            -1.0023806704418141,
+            -0.11206992403822039,
+            0.06491307962729415,
+            1.675034020466562,
+            -0.1949517157413598,
+            -0.08211860086412923
+          ],
+          "reason": "fitted"
+        }
+      }
+    },
+    {
+      "group": "G4",
+      "diagnostics": {
+        "M1": {
+          "kept_columns": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "constant_columns": [],
+          "train_groups": 2062,
+          "train_rows": 7776,
+          "train_positives": 802,
+          "success": true,
+          "loss": 0.3158625156208316,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "iterations": 11,
+          "coefficients": [
+            -2.1774942597577596,
+            -0.231967890322471,
+            0.18600138764837515,
+            -0.30714159097457233,
+            1.0496099346552765,
+            0.07689193459578672
+          ],
+          "reason": "fitted"
+        }
+      }
+    },
+    {
+      "group": "G5",
+      "diagnostics": {
+        "M1": {
+          "kept_columns": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "constant_columns": [],
+          "train_groups": 2062,
+          "train_rows": 7776,
+          "train_positives": 853,
+          "success": true,
+          "loss": 0.31091342911800923,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "iterations": 11,
+          "coefficients": [
+            -2.0276773794865446,
+            -0.5177532953601082,
+            0.040652421883752975,
+            -0.2697656491256441,
+            -0.02356676295545438,
+            1.6464363559751005
+          ],
+          "reason": "fitted"
+        }
+      }
+    }
+  ],
+  "2": [
+    {
+      "group": "G1",
+      "diagnostics": {
+        "M1": {
+          "kept_columns": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "constant_columns": [],
+          "train_groups": 1731,
+          "train_rows": 5504,
+          "train_positives": 2773,
+          "success": true,
+          "loss": 0.5925698282330405,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "iterations": 15,
+          "coefficients": [
+            -0.49102074967370785,
+            1.4645423523764143,
+            -0.3153686520808896,
+            -0.1619693837132062,
+            -0.08793916067205385,
+            -0.45076962677484034
+          ],
+          "reason": "fitted"
+        },
+        "M2": {
+          "kept_columns": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "constant_columns": [],
+          "train_groups": 1731,
+          "train_rows": 5504,
+          "train_positives": 2773,
+          "success": true,
+          "loss": 0.5585378645378835,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "iterations": 21,
+          "coefficients": [
+            -0.7263335582468432,
+            1.1606008789879922,
+            -0.20896096837382774,
+            -0.08245416679625946,
+            -0.05682674395308978,
+            -0.3315111518962677,
+            0.9323429820056811,
+            -0.23217123672528264,
+            -0.17341734813540569,
+            -0.08580713784370739,
+            -0.2511157552156384
+          ],
+          "reason": "fitted"
+        },
+        "U2": {
+          "kept_columns": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "constant_columns": [],
+          "train_groups": 1731,
+          "train_rows": 5504,
+          "train_positives": 2773,
+          "success": true,
+          "loss": 0.5702008183185318,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "iterations": 10,
+          "coefficients": [
+            -0.5728119078180917,
+            1.8364783929172126,
+            -0.4803306501737762,
+            -0.2668382537218513,
+            -0.1681565493171539,
+            -0.5108286669816601
+          ],
+          "reason": "fitted"
+        }
+      }
+    },
+    {
+      "group": "G2",
+      "diagnostics": {
+        "M1": {
+          "kept_columns": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "constant_columns": [],
+          "train_groups": 1731,
+          "train_rows": 5504,
+          "train_positives": 2297,
+          "success": true,
+          "loss": 0.6296231898843239,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "iterations": 10,
+          "coefficients": [
+            -0.655651042498174,
+            -0.318291142076201,
+            1.0745876889183616,
+            0.07680575779343785,
+            0.22030181824971715,
+            0.1989976524980696
+          ],
+          "reason": "fitted"
+        },
+        "M2": {
+          "kept_columns": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "constant_columns": [],
+          "train_groups": 1731,
+          "train_rows": 5504,
+          "train_positives": 2297,
+          "success": true,
+          "loss": 0.6033685172312978,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "iterations": 15,
+          "coefficients": [
+            -0.8712932050082857,
+            -0.15933052105637355,
+            0.9032353205366014,
+            0.05804736364363176,
+            0.19034960693966502,
+            0.15925957109367017,
+            -0.26968860011456536,
+            0.7983036318783814,
+            0.0005883730577451712,
+            -0.05994972672443226,
+            0.06335959112096297
+          ],
+          "reason": "fitted"
+        },
+        "U2": {
+          "kept_columns": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "constant_columns": [],
+          "train_groups": 1731,
+          "train_rows": 5504,
+          "train_positives": 2297,
+          "success": true,
+          "loss": 0.6107800720507206,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "iterations": 11,
+          "coefficients": [
+            -0.7231696316592771,
+            -0.48129617552133724,
+            1.4833780064371318,
+            0.03508547201731561,
+            0.09999905918192016,
+            0.15592106892841456
+          ],
+          "reason": "fitted"
+        }
+      }
+    },
+    {
+      "group": "G3",
+      "diagnostics": {
+        "M1": {
+          "kept_columns": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "constant_columns": [],
+          "train_groups": 1731,
+          "train_rows": 5504,
+          "train_positives": 2447,
+          "success": true,
+          "loss": 0.5801495957667344,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "iterations": 14,
+          "coefficients": [
+            -1.0261142353802881,
+            -0.06089352988869371,
+            0.0927869215444502,
+            1.7198492030588195,
+            -0.26559020815746387,
+            -0.018240912410779908
+          ],
+          "reason": "fitted"
+        },
+        "M2": {
+          "kept_columns": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "constant_columns": [],
+          "train_groups": 1731,
+          "train_rows": 5504,
+          "train_positives": 2447,
+          "success": true,
+          "loss": 0.5476874944669688,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "iterations": 21,
+          "coefficients": [
+            -1.2465089595957701,
+            -0.03255627540195808,
+            0.04478897810368911,
+            1.3799804675938934,
+            -0.2519903924471186,
+            0.02869434179050614,
+            -0.09500921770325099,
+            0.011299603481687036,
+            1.081607148461405,
+            -0.13683201534775105,
+            -0.06320177079157263
+          ],
+          "reason": "fitted"
+        },
+        "U2": {
+          "kept_columns": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "constant_columns": [],
+          "train_groups": 1731,
+          "train_rows": 5504,
+          "train_positives": 2447,
+          "success": true,
+          "loss": 0.5623454645719985,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "iterations": 14,
+          "coefficients": [
+            -1.0734070397095323,
+            -0.1800408900668491,
+            0.021579854946331134,
+            2.1537726674210194,
+            -0.3403015544362087,
+            -0.07719558329048669
+          ],
+          "reason": "fitted"
+        }
+      }
+    },
+    {
+      "group": "G4",
+      "diagnostics": {
+        "M1": {
+          "kept_columns": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "constant_columns": [],
+          "train_groups": 1731,
+          "train_rows": 5504,
+          "train_positives": 582,
+          "success": true,
+          "loss": 0.32341134593319976,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "iterations": 10,
+          "coefficients": [
+            -2.067144819460143,
+            -0.327580286107541,
+            0.17673004474529114,
+            -0.3495759581085553,
+            1.1721515923236063,
+            0.0095556123030592
+          ],
+          "reason": "fitted"
+        },
+        "M2": {
+          "kept_columns": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "constant_columns": [],
+          "train_groups": 1731,
+          "train_rows": 5504,
+          "train_positives": 582,
+          "success": true,
+          "loss": 0.31078302412710185,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "iterations": 12,
+          "coefficients": [
+            -2.186372266363454,
+            -0.22172818271359077,
+            0.13231908625636132,
+            -0.26502327213838406,
+            0.9937640995847595,
+            -0.024211523754342112,
+            -0.16830582750181056,
+            0.21848459010577923,
+            -0.23069364006782786,
+            0.9112892501495584,
+            0.09071078849562136
+          ],
+          "reason": "fitted"
+        },
+        "U2": {
+          "kept_columns": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "constant_columns": [],
+          "train_groups": 1731,
+          "train_rows": 5504,
+          "train_positives": 582,
+          "success": true,
+          "loss": 0.31894916273663476,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "iterations": 10,
+          "coefficients": [
+            -2.0786417582580885,
+            -0.39664000277952527,
+            0.2954137257871746,
+            -0.43870153511676796,
+            1.4313870868146694,
+            0.04607889396639322
+          ],
+          "reason": "fitted"
+        }
+      }
+    },
+    {
+      "group": "G5",
+      "diagnostics": {
+        "M1": {
+          "kept_columns": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "constant_columns": [],
+          "train_groups": 1731,
+          "train_rows": 5504,
+          "train_positives": 596,
+          "success": true,
+          "loss": 0.30824282044559725,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "iterations": 11,
+          "coefficients": [
+            -2.026292414332042,
+            -0.5441991928297091,
+            0.09342265343769321,
+            -0.3247259119820464,
+            -0.026877323876744186,
+            1.5710198229495536
+          ],
+          "reason": "fitted"
+        },
+        "M2": {
+          "kept_columns": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "constant_columns": [],
+          "train_groups": 1731,
+          "train_rows": 5504,
+          "train_positives": 596,
+          "success": true,
+          "loss": 0.29091106238396486,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "iterations": 13,
+          "coefficients": [
+            -2.0686640110858256,
+            -0.38410817286783544,
+            0.06137316557553267,
+            -0.2645658168852946,
+            -0.009174563623840774,
+            1.242290186482313,
+            -0.31090898459204774,
+            0.007051070556752251,
+            -0.15932044738970283,
+            0.08625564719615915,
+            1.094958089988594
+          ],
+          "reason": "fitted"
+        },
+        "U2": {
+          "kept_columns": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "constant_columns": [],
+          "train_groups": 1731,
+          "train_rows": 5504,
+          "train_positives": 596,
+          "success": true,
+          "loss": 0.30337216918787074,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "iterations": 10,
+          "coefficients": [
+            -1.9565851165627821,
+            -0.6482496035693547,
+            0.040507495596647805,
+            -0.38663379006780885,
+            0.051449313367061905,
+            1.8238578167877473
+          ],
+          "reason": "fitted"
+        }
+      }
+    }
+  ]
+}

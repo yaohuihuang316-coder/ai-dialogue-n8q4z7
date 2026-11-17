@@ -1,0 +1,124 @@
+{
+  "positions": 321,
+  "sources": 50,
+  "paired_cells": 1591,
+  "excluded_cells": 14,
+  "macro_alpha": 0.6881709591276441,
+  "macro_alpha_ci95": [
+    0.6370747276038564,
+    0.7330719798910816
+  ],
+  "macro_alpha_finite_labels": 5,
+  "micro_agreement": 0.8931489629164048,
+  "micro_positive_agreement_F1": 0.8156182212581344,
+  "complete_set_positions": 307,
+  "exact_set_agreement": 0.5732899022801303,
+  "mean_set_jaccard": 0.773072747014115,
+  "per_label": [
+    {
+      "label": "G1",
+      "paired_n": 315,
+      "GPT_yes": 166,
+      "DeepSeek_yes": 150,
+      "alpha": 0.7464323147625574,
+      "kappa": 0.746682750301568,
+      "agreement": 0.873015873015873,
+      "positive_agreement_F1": 0.8734177215189873,
+      "alpha_ci95": [
+        0.6488665962029103,
+        0.824883674235604
+      ],
+      "valid_bootstrap": 2000,
+      "confusion_00_01_10_11": [
+        137,
+        12,
+        28,
+        138
+      ]
+    },
+    {
+      "label": "G2",
+      "paired_n": 320,
+      "GPT_yes": 117,
+      "DeepSeek_yes": 101,
+      "alpha": 0.6943780164354971,
+      "kappa": 0.6947491653297491,
+      "agreement": 0.8625,
+      "positive_agreement_F1": 0.7981651376146789,
+      "alpha_ci95": [
+        0.6092057577848733,
+        0.7655975368215955
+      ],
+      "valid_bootstrap": 2000,
+      "confusion_00_01_10_11": [
+        189,
+        14,
+        30,
+        87
+      ]
+    },
+    {
+      "label": "G3",
+      "paired_n": 318,
+      "GPT_yes": 128,
+      "DeepSeek_yes": 107,
+      "alpha": 0.7641534461718045,
+      "kappa": 0.764882335544383,
+      "agreement": 0.889937106918239,
+      "positive_agreement_F1": 0.851063829787234,
+      "alpha_ci95": [
+        0.6434869819988889,
+        0.8684261857143809
+      ],
+      "valid_bootstrap": 2000,
+      "confusion_00_01_10_11": [
+        183,
+        7,
+        28,
+        100
+      ]
+    },
+    {
+      "label": "G4",
+      "paired_n": 321,
+      "GPT_yes": 30,
+      "DeepSeek_yes": 22,
+      "alpha": 0.6239243807040418,
+      "kappa": 0.6241217798594847,
+      "agreement": 0.9439252336448598,
+      "positive_agreement_F1": 0.6538461538461539,
+      "alpha_ci95": [
+        0.43606133860153257,
+        0.7895345744680851
+      ],
+      "valid_bootstrap": 2000,
+      "confusion_00_01_10_11": [
+        286,
+        5,
+        13,
+        17
+      ]
+    },
+    {
+      "label": "G5",
+      "paired_n": 317,
+      "GPT_yes": 54,
+      "DeepSeek_yes": 47,
+      "alpha": 0.6119666375643193,
+      "kappa": 0.6117070635833858,
+      "agreement": 0.8958990536277602,
+      "positive_agreement_F1": 0.6732673267326733,
+      "alpha_ci95": [
+        0.49205485688978456,
+        0.7248220765281835
+      ],
+      "valid_bootstrap": 2000,
+      "confusion_00_01_10_11": [
+        250,
+        13,
+        20,
+        34
+      ]
+    }
+  ]
+}

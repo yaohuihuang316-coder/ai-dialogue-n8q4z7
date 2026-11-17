@@ -1,0 +1,8 @@
+torch
+transformers
+safetensors
+rapidfuzz
+scikit-learn
+pandas
+statsmodels
+numpy

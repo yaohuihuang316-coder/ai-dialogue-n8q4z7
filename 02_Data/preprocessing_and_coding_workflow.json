@@ -1,0 +1,48 @@
+{
+  "stage1": {
+    "purpose": "Acquire, normalize, clean, and screen public conversations",
+    "source_releases": {
+      "WildChat-4.8M": {
+        "conversations": 3199860,
+        "revision_prefix": "c827c6df"
+      },
+      "Search Arena-24k": {
+        "paired_rows": 24069,
+        "revision_prefix": "037967b4"
+      }
+    },
+    "steps": [
+      "Lock source release and file hashes",
+      "Parse ordered messages and preserve original source keys",
+      "Count nonempty user messages from messages, not UI turn fields",
+      "Clean empty/invalid records and check language",
+      "Keep Search Arena paired branches linked by original row",
+      "Screen candidates and retain the frozen analytical source selection"
+    ],
+    "final_main_sources": 2405
+  },
+  "stage2": {
+    "purpose": "Build coding units and refine the behavioral definitions",
+    "steps": [
+      "Construct prefixes ending at each target user request",
+      "Identify tasks by goal continuity, preserving returns to earlier tasks",
+      "Code initial needs, multi-label actions, and outcome evidence separately",
+      "Iteratively refine boundary cases and examples",
+      "Check identifiers, quotations, field coverage, and task membership",
+      "Freeze selected records and derive five-function sets"
+    ],
+    "prompt": "04_Prompts/V13_coding_prompt.txt",
+    "main_rule_version": "Original frozen main-sample coding; not retrospectively relabeled V13",
+    "additional_external_rule_version": "V13"
+  },
+  "stage3": {
+    "purpose": "Analyze derived task data",
+    "entry": "03_Code/reproduce.py",
+    "outputs": [
+      "main descriptive statistics",
+      "functional combinations and first occurrences",
+      "common semantic strategies",
+      "external next-function prediction"
+    ]
+  }
+}

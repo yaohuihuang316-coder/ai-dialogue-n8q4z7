@@ -1,0 +1,4 @@
+pyarrow
+huggingface_hub
+onnxruntime
+numpy

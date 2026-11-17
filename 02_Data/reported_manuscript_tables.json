@@ -1,0 +1,2338 @@
+{
+  "description": "Displayed tables synchronized with the current submission documents. Legacy keys are retained; current filenames are listed in source_documents. Numerical model outputs remain in 05_Results.",
+  "manuscripts": {
+    "English_Manuscript_v5.docx": [
+      [
+        [
+          "Function",
+          "Actions",
+          "Meaning",
+          "Main theoretical sources"
+        ],
+        [
+          "G1 Acquiring and understanding",
+          "C01 Extend information; C02 Explain, illustrate, derive; C04.02–04 Materials and resources; C11 Find facts; C15 Topic overview",
+          "Obtain new information or deepen understanding of information already received",
+          "Information tactics (Bates, 1989; Ellis, 1989)"
+        ],
+        [
+          "G2 Adjusting the need",
+          "C05 Adjust scope and conditions; C06 Repair or restate; C07 Supply input, answer clarification",
+          "Change, repair, or complete the statement of the need",
+          "Question negotiation and reformulation (Qu et al., 2018; Rieh & Xie, 2006; Taylor, 1968)"
+        ],
+        [
+          "G3 Solving and producing",
+          "C09 Generate, transform, apply; C12 Compare, evaluate, recommend; C13 Predict and hypothesize; C14 Solve directly",
+          "Ask the system for a solution, judgment, or directly usable output",
+          "Output-oriented requests (Kim et al., 2024; Trippas et al., 2024)"
+        ],
+        [
+          "G4 Verifying",
+          "C03 Verify, question, correct; C04.01 Request evidence or sources",
+          "Check the correctness or basis of an earlier answer",
+          "Answer verification (Lin & Deng, 2025; Wu & Sun, 2023)"
+        ],
+        [
+          "G5 Advancing and feedback",
+          "C08 Continue, advance, add output; C10 Feedback and interaction management",
+          "Keep the interaction going or evaluate an answer",
+          "Continuation and feedback (Bates, 1979; Liu et al., 2025; Qu et al., 2018)"
+        ]
+      ],
+      [
+        [
+          "Source or unit",
+          "Source conversations",
+          "Tasks",
+          "Follow-up positions"
+        ],
+        [
+          "WildChat",
+          "2,172",
+          "4,692",
+          "10,054"
+        ],
+        [
+          "Search Arena",
+          "233",
+          "408",
+          "796"
+        ],
+        [
+          "All sources",
+          "2,405",
+          "5,100",
+          "10,850"
+        ],
+        [
+          "Tasks without follow-ups",
+          "—",
+          "2,026",
+          "0"
+        ],
+        [
+          "Tasks with follow-ups",
+          "—",
+          "3,074",
+          "10,850"
+        ]
+      ],
+      [
+        [
+          "Analysis",
+          "Question",
+          "Unit",
+          "Core analysis",
+          "Further detail"
+        ],
+        [
+          "Needs and functions",
+          "RQ1",
+          "Task; follow-up position",
+          "Initial-need profiles; same-position combinations",
+          "S1, S5, S14"
+        ],
+        [
+          "Process organization",
+          "RQ2",
+          "Complete path; local sequence",
+          "Path comparison; next-state prediction; first occurrence",
+          "S2, S6, S9, S13"
+        ],
+        [
+          "Task outcomes",
+          "RQ3",
+          "Task; determinable task",
+          "Overall/local outcomes; two-part models; adjusted associations",
+          "S3, S7"
+        ],
+        [
+          "Contextual comparison",
+          "Context",
+          "Adjacent requests",
+          "Shared strategies × lexical expression",
+          "S4, S8, S11"
+        ],
+        [
+          "External prediction",
+          "Robustness check",
+          "ShareGPT position",
+          "Fixed-model next-function prediction",
+          "S12"
+        ]
+      ],
+      [
+        [
+          "Test",
+          "Setting",
+          "Result",
+          "Interpretation"
+        ],
+        [
+          "Complete paths",
+          "3,074 tasks with follow-ups",
+          "1,468 paths; 1,227 occur once (83.6%)",
+          "Whole paths are diverse"
+        ],
+        [
+          "Approximate paths",
+          "OM costs; Ward/PAM; k = 2–10",
+          "ASW 0.10–0.25 under most settings, near the shuffled baseline",
+          "Little evidence of stable whole-path groups"
+        ],
+        [
+          "Next-state prediction",
+          "Zero / first / second order",
+          "3.41 / 2.98 / 3.03 bits per position",
+          "Local history improves prediction"
+        ],
+        [
+          "Composition and order",
+          "Within-task permutation decomposition",
+          "0.494-bit gain; about 87% composition and 13% order",
+          "Composition supplies most of the local information"
+        ]
+      ],
+      [
+        [
+          "Variable",
+          "y1 AME, pp [95% CI]",
+          "y1 Holm p",
+          "y2 AME, pp [95% CI]",
+          "y2 Holm p"
+        ],
+        [
+          "Initial need",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "generation and processing",
+          "8.9 [4.2, 14.1]",
+          "0.006",
+          "−5.4 [−8.5, −2.6]",
+          "0.007"
+        ],
+        [
+          "comparison and evaluation",
+          "−18.6 [−23.2, −13.8]",
+          "<0.001",
+          "−2.2 [−5.9, 1.1]",
+          "1.000"
+        ],
+        [
+          "fact location",
+          "−28.8 [−33.4, −24.1]",
+          "<0.001",
+          "−13.2 [−19.4, −8.0]",
+          "<0.001"
+        ],
+        [
+          "about the AI itself",
+          "−5.8 [−13.3, 1.2]",
+          "0.630",
+          "−2.4 [−7.4, 1.9]",
+          "1.000"
+        ],
+        [
+          "procedures and troubleshooting",
+          "−12.4 [−17.1, −7.9]",
+          "<0.001",
+          "−5.0 [−8.0, −1.9]",
+          "0.016"
+        ],
+        [
+          "experience seeking",
+          "28.6 [23.5, 34.1]",
+          "<0.001",
+          "—",
+          "—"
+        ],
+        [
+          "open exploration",
+          "−15.6 [−25.8, −5.2]",
+          "0.029",
+          "—",
+          "—"
+        ],
+        [
+          "prediction and hypotheticals",
+          "−24.7 [−39.3, −7.7]",
+          "0.032",
+          "−3.8 [−14.2, 2.5]",
+          "1.000"
+        ],
+        [
+          "First-query attributes",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Clear goal",
+          "26.0 [18.4, 32.9]",
+          "<0.001",
+          "15.4 [4.8, 30.2]",
+          "0.016"
+        ],
+        [
+          "Background provided",
+          "8.0 [2.8, 12.8]",
+          "0.026",
+          "0.3 [−3.1, 4.0]",
+          "1.000"
+        ],
+        [
+          "Explicit constraints",
+          "−21.6 [−24.7, −18.3]",
+          "<0.001",
+          "−3.2 [−6.0, −0.7]",
+          "0.215"
+        ],
+        [
+          "Verifiable deliverable: yes",
+          "20.1 [2.0, 35.9]",
+          "0.275",
+          "—",
+          "—"
+        ],
+        [
+          "Verifiable deliverable: partly",
+          "19.0 [0.5, 35.0]",
+          "0.320",
+          "—",
+          "—"
+        ],
+        [
+          "Process functions",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "G1 acquiring and understanding (count)",
+          "−0.4 [−1.8, 1.2]",
+          "1.000",
+          "−0.3 [−2.5, 1.0]",
+          "1.000"
+        ],
+        [
+          "G2 adjusting the need (count)",
+          "−1.1 [−2.6, 0.4]",
+          "0.630",
+          "−0.4 [−2.4, 0.9]",
+          "1.000"
+        ],
+        [
+          "G3 solving and producing (count)",
+          "1.8 [0.7, 2.9]",
+          "0.029",
+          "1.0 [0.1, 2.1]",
+          "0.494"
+        ],
+        [
+          "G4 verifying (count)",
+          "−1.7 [−4.1, 0.5]",
+          "0.731",
+          "−7.3 [−10.9, −5.0]",
+          "<0.001"
+        ],
+        [
+          "G5 advancing and feedback (count)",
+          "0.7 [−1.2, 2.6]",
+          "1.000",
+          "0.4 [−1.5, 2.2]",
+          "1.000"
+        ],
+        [
+          "Other",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Queries in task (per +1)",
+          "0.0 [−1.7, 1.8]",
+          "1.000",
+          "0.7 [−0.8, 2.4]",
+          "1.000"
+        ],
+        [
+          "Search Arena source",
+          "−17.1 [−22.4, −11.6]",
+          "<0.001",
+          "−1.9 [−8.2, 3.1]",
+          "1.000"
+        ],
+        [
+          "Tasks / source conversations",
+          "5,100 / 2,405",
+          "—",
+          "2,496 / 1,524",
+          "—"
+        ]
+      ],
+      [
+        [
+          "Process feature",
+          "Outcome",
+          "n / exposed",
+          "Overlap weighting",
+          "AIPW"
+        ],
+        [
+          "G1→G3",
+          "Achievement",
+          "1,090 / 416",
+          "6.2 [2.9, 9.2]",
+          "6.2 [2.8, 9.6]"
+        ],
+        [
+          "G1→G3",
+          "Determinability",
+          "2,272 / 863",
+          "−0.2 [−4.6, 4.2]",
+          "1.7 [−3.0, 6.4]"
+        ],
+        [
+          "G1→G3 (selection reweighting)",
+          "Achievement",
+          "1,090 / 416",
+          "10.5 [5.9, 14.6]",
+          "—"
+        ],
+        [
+          "G1→G3 (WildChat)",
+          "Achievement",
+          "1,034 / 391",
+          "5.9 [2.5, 9.2]",
+          "5.1 [1.6, 8.6]"
+        ],
+        [
+          "Need adjustment G2",
+          "Achievement",
+          "1,500 / 950",
+          "−7.3 [−10.1, −4.2]",
+          "−6.7 [−9.7, −3.7]"
+        ],
+        [
+          "Verification G4",
+          "Achievement",
+          "1,500 / 248",
+          "−21.4 [−27.0, −15.9]",
+          "−24.1 [−32.0, −16.3]"
+        ],
+        [
+          "Initial constraints",
+          "Determinability",
+          "5,100 / 1,649",
+          "−22.0 [−25.2, −18.6]",
+          "−21.3 [−26.3, −16.2]"
+        ]
+      ],
+      [
+        [
+          "Strategy",
+          "Traditional hits / judgeable",
+          "Traditional uncertain",
+          "Traditional\nstd. share",
+          "AI hits / judgeable",
+          "AI uncertain",
+          "AI\nstd. share"
+        ],
+        [
+          "Need narrowing",
+          "260 / 1,581",
+          "54",
+          "16.95%",
+          "668 / 1,701",
+          "21",
+          "39.49%"
+        ],
+        [
+          "Need broadening",
+          "51 / 1,373",
+          "262",
+          "3.79%",
+          "81 / 1,687",
+          "35",
+          "7.27%"
+        ],
+        [
+          "Same-intent restatement",
+          "498 / 1,526",
+          "109",
+          "32.23%",
+          "253 / 1,718",
+          "4",
+          "14.85%"
+        ],
+        [
+          "Facet switching within a task",
+          "654 / 1,477",
+          "158",
+          "43.88%",
+          "788 / 1,718",
+          "4",
+          "46.80%"
+        ]
+      ]
+    ],
+    "中文对照译文_v5.docx": [
+      [
+        [
+          "功能",
+          "动作",
+          "含义",
+          "主要理论来源"
+        ],
+        [
+          "G1 获取理解",
+          "C01扩展信息；C02解释、举例、推导；C04.02—04材料资源；C11查找事实；C15主题概览",
+          "获取新信息或深化已有理解",
+          "信息战术（Ellis, 1989; Bates, 1989）"
+        ],
+        [
+          "G2 调整需求",
+          "C05调整范围条件；C06修复或重述；C07补充输入、回答澄清",
+          "改变、修复或补全需求表达",
+          "问题协商与重构（Taylor, 1968; Rieh & Xie, 2006; Qu et al., 2018）"
+        ],
+        [
+          "G3 求解产物",
+          "C09生成、转换、应用；C12比较、评价、推荐；C13预测推演；C14直接求解",
+          "要求解决方案、判断或可直接使用的产物",
+          "面向产物的请求（Kim et al., 2024; Trippas et al., 2024）"
+        ],
+        [
+          "G4 核验",
+          "C03核验、质疑、纠错；C04.01索取证据来源",
+          "检查先前回答的正确性或依据",
+          "答案核验（Lin & Deng, 2025; Wu & Sun, 2023）"
+        ],
+        [
+          "G5 推进反馈",
+          "C08继续、推进、追加输出；C10反馈与交互管理",
+          "维持交互或评价回答",
+          "持续与反馈（Bates, 1979; Qu et al., 2018; Liu et al., 2025）"
+        ]
+      ],
+      [
+        [
+          "来源或单位",
+          "源对话",
+          "任务",
+          "追问位置"
+        ],
+        [
+          "WildChat",
+          "2,172",
+          "4,692",
+          "10,054"
+        ],
+        [
+          "Search Arena",
+          "233",
+          "408",
+          "796"
+        ],
+        [
+          "全部来源",
+          "2,405",
+          "5,100",
+          "10,850"
+        ],
+        [
+          "无追问任务",
+          "—",
+          "2,026",
+          "0"
+        ],
+        [
+          "有追问任务",
+          "—",
+          "3,074",
+          "10,850"
+        ]
+      ],
+      [
+        [
+          "分析",
+          "问题",
+          "单位",
+          "核心分析",
+          "补充细节"
+        ],
+        [
+          "需求与功能",
+          "RQ1",
+          "任务；追问位置",
+          "起始需求分布；同位组合",
+          "S1, S5, S14"
+        ],
+        [
+          "过程组织",
+          "RQ2",
+          "完整路径；局部序列",
+          "路径比较；下一状态预测；首次出现",
+          "S2, S6, S9, S13"
+        ],
+        [
+          "任务成果",
+          "RQ3",
+          "任务；可判定任务",
+          "整体与局部成果；两部分模型；调整后关联",
+          "S3, S7"
+        ],
+        [
+          "情境比较",
+          "背景",
+          "相邻请求",
+          "共同策略×词项表达",
+          "S4, S8, S11"
+        ],
+        [
+          "外部预测",
+          "稳健性检验",
+          "ShareGPT位置",
+          "固定模型预测下一功能",
+          "S12"
+        ]
+      ],
+      [
+        [
+          "检验",
+          "设置",
+          "结果",
+          "解释"
+        ],
+        [
+          "完整路径",
+          "3,074个有追问任务",
+          "1,468种路径，1,227种只出现一次（83.6%）",
+          "完整路径多样"
+        ],
+        [
+          "近似路径",
+          "OM代价；Ward/PAM；k=2—10",
+          "多数设置ASW为0.10—0.25，接近打乱基线",
+          "稳定完整路径分组的证据较少"
+        ],
+        [
+          "下一状态预测",
+          "零阶／一阶／二阶",
+          "每位置3.41／2.98／3.03比特",
+          "局部历史改善预测"
+        ],
+        [
+          "构成与次序",
+          "任务内置换分解",
+          "信息增益0.494比特，约87%为构成、13%为次序",
+          "构成提供主要局部信息"
+        ]
+      ],
+      [
+        [
+          "变量",
+          "y1 AME，百分点［95%区间］",
+          "y1 Holm p",
+          "y2 AME，百分点［95%区间］",
+          "y2 Holm p"
+        ],
+        [
+          "起始需求",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "生成加工",
+          "8.9 [4.2, 14.1]",
+          "0.006",
+          "−5.4 [−8.5, −2.6]",
+          "0.007"
+        ],
+        [
+          "比较评价",
+          "−18.6 [−23.2, −13.8]",
+          "<0.001",
+          "−2.2 [−5.9, 1.1]",
+          "1.000"
+        ],
+        [
+          "事实定位",
+          "−28.8 [−33.4, −24.1]",
+          "<0.001",
+          "−13.2 [−19.4, −8.0]",
+          "<0.001"
+        ],
+        [
+          "询问AI自身",
+          "−5.8 [−13.3, 1.2]",
+          "0.630",
+          "−2.4 [−7.4, 1.9]",
+          "1.000"
+        ],
+        [
+          "方法与排错",
+          "−12.4 [−17.1, −7.9]",
+          "<0.001",
+          "−5.0 [−8.0, −1.9]",
+          "0.016"
+        ],
+        [
+          "经验征询",
+          "28.6 [23.5, 34.1]",
+          "<0.001",
+          "—",
+          "—"
+        ],
+        [
+          "开放探索",
+          "−15.6 [−25.8, −5.2]",
+          "0.029",
+          "—",
+          "—"
+        ],
+        [
+          "预测推演",
+          "−24.7 [−39.3, −7.7]",
+          "0.032",
+          "−3.8 [−14.2, 2.5]",
+          "1.000"
+        ],
+        [
+          "首问属性",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "目标清晰",
+          "26.0 [18.4, 32.9]",
+          "<0.001",
+          "15.4 [4.8, 30.2]",
+          "0.016"
+        ],
+        [
+          "提供背景",
+          "8.0 [2.8, 12.8]",
+          "0.026",
+          "0.3 [−3.1, 4.0]",
+          "1.000"
+        ],
+        [
+          "明确约束",
+          "−21.6 [−24.7, −18.3]",
+          "<0.001",
+          "−3.2 [−6.0, −0.7]",
+          "0.215"
+        ],
+        [
+          "可核验交付物：是",
+          "20.1 [2.0, 35.9]",
+          "0.275",
+          "—",
+          "—"
+        ],
+        [
+          "可核验交付物：部分",
+          "19.0 [0.5, 35.0]",
+          "0.320",
+          "—",
+          "—"
+        ],
+        [
+          "过程功能",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "G1 获取理解（次数）",
+          "−0.4 [−1.8, 1.2]",
+          "1.000",
+          "−0.3 [−2.5, 1.0]",
+          "1.000"
+        ],
+        [
+          "G2 调整需求（次数）",
+          "−1.1 [−2.6, 0.4]",
+          "0.630",
+          "−0.4 [−2.4, 0.9]",
+          "1.000"
+        ],
+        [
+          "G3 求解产物（次数）",
+          "1.8 [0.7, 2.9]",
+          "0.029",
+          "1.0 [0.1, 2.1]",
+          "0.494"
+        ],
+        [
+          "G4 核验（次数）",
+          "−1.7 [−4.1, 0.5]",
+          "0.731",
+          "−7.3 [−10.9, −5.0]",
+          "<0.001"
+        ],
+        [
+          "G5 推进反馈（次数）",
+          "0.7 [−1.2, 2.6]",
+          "1.000",
+          "0.4 [−1.5, 2.2]",
+          "1.000"
+        ],
+        [
+          "其他",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "任务提问数（每增加1次）",
+          "0.0 [−1.7, 1.8]",
+          "1.000",
+          "0.7 [−0.8, 2.4]",
+          "1.000"
+        ],
+        [
+          "Search Arena来源",
+          "−17.1 [−22.4, −11.6]",
+          "<0.001",
+          "−1.9 [−8.2, 3.1]",
+          "1.000"
+        ],
+        [
+          "任务／源对话",
+          "5,100 / 2,405",
+          "—",
+          "2,496 / 1,524",
+          "—"
+        ]
+      ],
+      [
+        [
+          "过程特征",
+          "成果",
+          "n／具有该特征",
+          "重叠权重",
+          "AIPW"
+        ],
+        [
+          "G1→G3",
+          "达成",
+          "1,090 / 416",
+          "6.2 [2.9, 9.2]",
+          "6.2 [2.8, 9.6]"
+        ],
+        [
+          "G1→G3",
+          "可判定性",
+          "2,272 / 863",
+          "−0.2 [−4.6, 4.2]",
+          "1.7 [−3.0, 6.4]"
+        ],
+        [
+          "G1→G3（选择重加权）",
+          "达成",
+          "1,090 / 416",
+          "10.5 [5.9, 14.6]",
+          "—"
+        ],
+        [
+          "G1→G3 (WildChat)",
+          "达成",
+          "1,034 / 391",
+          "5.9 [2.5, 9.2]",
+          "5.1 [1.6, 8.6]"
+        ],
+        [
+          "需求调整G2",
+          "达成",
+          "1,500 / 950",
+          "−7.3 [−10.1, −4.2]",
+          "−6.7 [−9.7, −3.7]"
+        ],
+        [
+          "核验G4",
+          "达成",
+          "1,500 / 248",
+          "−21.4 [−27.0, −15.9]",
+          "−24.1 [−32.0, −16.3]"
+        ],
+        [
+          "初始约束",
+          "可判定性",
+          "5,100 / 1,649",
+          "−22.0 [−25.2, −18.6]",
+          "−21.3 [−26.3, −16.2]"
+        ]
+      ],
+      [
+        [
+          "策略",
+          "传统：阳性／可判断",
+          "传统：不确定",
+          "传统：标准化比例",
+          "AI：阳性／可判断",
+          "AI：不确定",
+          "AI：标准化比例"
+        ],
+        [
+          "需求收窄",
+          "260 / 1,581",
+          "54",
+          "16.95%",
+          "668 / 1,701",
+          "21",
+          "39.49%"
+        ],
+        [
+          "需求放宽",
+          "51 / 1,373",
+          "262",
+          "3.79%",
+          "81 / 1,687",
+          "35",
+          "7.27%"
+        ],
+        [
+          "同意图重述",
+          "498 / 1,526",
+          "109",
+          "32.23%",
+          "253 / 1,718",
+          "4",
+          "14.85%"
+        ],
+        [
+          "任务内方面切换",
+          "654 / 1,477",
+          "158",
+          "43.88%",
+          "788 / 1,718",
+          "4",
+          "46.80%"
+        ]
+      ]
+    ],
+    "English_Supplementary_Material_v5.docx": [
+      [
+        [
+          "Code",
+          "Action",
+          "Decision rule and boundary",
+          "Constructed example",
+          "Function"
+        ],
+        [
+          "C01",
+          "Extend information",
+          "Ask about further attributes, objects, conditions, or comparisons within the current goal; new information alone is not verification of an earlier answer.",
+          "\"How does this approach work in other regions?\"",
+          "G1"
+        ],
+        [
+          "C02",
+          "Explain, illustrate, derive",
+          "Ask for explanation of a concept, reason, mechanism, or step, or for examples or derivations; a bare request to continue is not explanation.",
+          "\"Why is this done? Give an example.\"",
+          "G1"
+        ],
+        [
+          "C03",
+          "Verify, question, correct",
+          "Confirm facts in an earlier answer, point out contradictions, or ask for a re-check or correction; a new factual question alone does not belong here.",
+          "\"Is the number you gave accurate? Please check again.\"",
+          "G4"
+        ],
+        [
+          "C04",
+          "Request materials, sources, evidence",
+          "Ask for evidence or a source for an earlier claim, or for original texts, references, or links; the function depends on the purpose and subtype.",
+          "\"What is the source of this conclusion?\" or \"Give me relevant references.\"",
+          "G4 (C04.01); G1 (C04.02–04)"
+        ],
+        [
+          "C05",
+          "Adjust scope and conditions",
+          "With evidence of a change, narrow, broaden, or replace the scope, or change technical conditions or acceptance criteria; supplying material alone is not a constraint.",
+          "\"Keep only studies from the last five years.\"",
+          "G2"
+        ],
+        [
+          "C06",
+          "Repair or restate the question",
+          "Restate, re-ask, correct, or clarify references in an earlier question; procedural \"continue\" usually belongs to C08.",
+          "\"By school I meant a university.\"",
+          "G2"
+        ],
+        [
+          "C07",
+          "Supply input, answer clarification",
+          "Provide background, source text, or data, answer the assistant's clarification question, or choose among offered options; supplying material and restricting its scope are judged separately.",
+          "\"Here is the text to process: …\"",
+          "G2"
+        ],
+        [
+          "C08",
+          "Continue, advance, add output",
+          "Ask to continue unfinished output, add more of the same, move to the next part, or resume a previous flow.",
+          "\"Continue with the next part.\"",
+          "G5"
+        ],
+        [
+          "C09",
+          "Generate, transform, apply",
+          "Ask to generate, edit, translate, convert, or integrate an output, or apply a method to given material; changing format alone does not narrow the need.",
+          "\"Put the above into a table.\"",
+          "G3"
+        ],
+        [
+          "C10",
+          "Feedback and interaction management",
+          "Give feedback or evaluation, state understanding or remaining difficulty, or ask to stop; thanks, continuing, or switching topic alone do not establish an overall outcome.",
+          "\"I still do not understand this part.\"",
+          "G5"
+        ],
+        [
+          "C11",
+          "Find facts and existing information",
+          "Look up existing facts, numbers, dates, lists, or rules; requests for reasons or sources are judged under C02 or C04.",
+          "\"In which year was this university founded?\"",
+          "G1"
+        ],
+        [
+          "C12",
+          "Compare, evaluate, recommend",
+          "Compare options, judge suitability, value, or risk, or ask for a recommendation given goals and preferences; may co-occur with other categories.",
+          "\"Which of the two plans suits a team on a tight budget?\"",
+          "G3"
+        ],
+        [
+          "C13",
+          "Predict, estimate, hypothesize",
+          "Predict undetermined future events, make uncertain estimates, or analyze consequences of a hypothetical; announced schedules and determinate arithmetic are judged under C11 and C14.",
+          "\"What might happen if costs rise?\"",
+          "G3"
+        ],
+        [
+          "C14",
+          "Solve directly",
+          "Ask for a determinate numerical, exercise, or logical result; if a derivation is also requested, C02 may be added.",
+          "\"Calculate 4 × 4 × 4.\"",
+          "G3"
+        ],
+        [
+          "C15",
+          "Topic overview and open exploration",
+          "Seek an overview of a topic or field, a learning route, or possible directions; specific term explanations and fact lists are judged under C02 and C11.",
+          "\"Outline the research directions in this field.\"",
+          "G1"
+        ]
+      ],
+      [
+        [
+          "Code",
+          "Initial need",
+          "All tasks N",
+          "With follow-ups n",
+          "Without follow-ups n",
+          "G1 n (%)",
+          "G2 n (%)",
+          "G3 n (%)",
+          "G4 n (%)",
+          "G5 n (%)"
+        ],
+        [
+          "E01",
+          "Concepts, terms, definitions",
+          "779",
+          "512",
+          "267",
+          "442 (56.7%)",
+          "290 (37.2%)",
+          "259 (33.2%)",
+          "79 (10.1%)",
+          "59 (7.6%)"
+        ],
+        [
+          "A01",
+          "Generating new content or outputs",
+          "677",
+          "470",
+          "207",
+          "207 (30.6%)",
+          "383 (56.6%)",
+          "382 (56.4%)",
+          "79 (11.7%)",
+          "131 (19.4%)"
+        ],
+        [
+          "P01",
+          "Procedures and implementation steps",
+          "659",
+          "385",
+          "274",
+          "294 (44.6%)",
+          "293 (44.5%)",
+          "170 (25.8%)",
+          "106 (16.1%)",
+          "56 (8.5%)"
+        ],
+        [
+          "F01",
+          "Locating entities, lists, specific facts",
+          "643",
+          "340",
+          "303",
+          "268 (41.7%)",
+          "208 (32.3%)",
+          "90 (14.0%)",
+          "80 (12.4%)",
+          "64 (10.0%)"
+        ],
+        [
+          "D02",
+          "Evaluating merits and suitability",
+          "294",
+          "167",
+          "127",
+          "112 (38.1%)",
+          "109 (37.1%)",
+          "121 (41.2%)",
+          "32 (10.9%)",
+          "23 (7.8%)"
+        ],
+        [
+          "P03",
+          "Calculation, proof, exercise solving",
+          "271",
+          "215",
+          "56",
+          "124 (45.8%)",
+          "134 (49.4%)",
+          "188 (69.4%)",
+          "36 (13.3%)",
+          "31 (11.4%)"
+        ],
+        [
+          "D03",
+          "Filtering and recommending by preference",
+          "269",
+          "164",
+          "105",
+          "101 (37.5%)",
+          "134 (49.8%)",
+          "103 (38.3%)",
+          "29 (10.8%)",
+          "46 (17.1%)"
+        ],
+        [
+          "M01",
+          "Identity, abilities, and access of the assistant",
+          "241",
+          "107",
+          "134",
+          "63 (26.1%)",
+          "51 (21.2%)",
+          "22 (9.1%)",
+          "19 (7.9%)",
+          "80 (33.2%)"
+        ],
+        [
+          "S01",
+          "Seeking experience, feelings, or topical response",
+          "214",
+          "58",
+          "156",
+          "13 (6.1%)",
+          "33 (15.4%)",
+          "12 (5.6%)",
+          "8 (3.7%)",
+          "48 (22.4%)"
+        ],
+        [
+          "E02",
+          "Causes, mechanisms, principles",
+          "193",
+          "136",
+          "57",
+          "119 (61.7%)",
+          "71 (36.8%)",
+          "73 (37.8%)",
+          "33 (17.1%)",
+          "19 (9.8%)"
+        ],
+        [
+          "F02",
+          "Looking up existing numbers, times, places",
+          "151",
+          "73",
+          "78",
+          "61 (40.4%)",
+          "46 (30.5%)",
+          "24 (15.9%)",
+          "20 (13.2%)",
+          "8 (5.3%)"
+        ],
+        [
+          "P02",
+          "Troubleshooting faults and errors",
+          "103",
+          "72",
+          "31",
+          "57 (55.3%)",
+          "56 (54.4%)",
+          "33 (32.0%)",
+          "17 (16.5%)",
+          "11 (10.7%)"
+        ],
+        [
+          "A02",
+          "Revising existing content or outputs",
+          "102",
+          "71",
+          "31",
+          "23 (22.5%)",
+          "60 (58.8%)",
+          "51 (50.0%)",
+          "13 (12.7%)",
+          "14 (13.7%)"
+        ],
+        [
+          "D01",
+          "Comparing similarities and differences",
+          "96",
+          "36",
+          "60",
+          "27 (28.1%)",
+          "19 (19.8%)",
+          "22 (22.9%)",
+          "9 (9.4%)",
+          "6 (6.2%)"
+        ],
+        [
+          "X01",
+          "Topic overview, open exploration",
+          "92",
+          "65",
+          "27",
+          "61 (66.3%)",
+          "31 (33.7%)",
+          "33 (35.9%)",
+          "12 (13.0%)",
+          "12 (13.0%)"
+        ],
+        [
+          "E03",
+          "Interpreting materials or phenomena",
+          "88",
+          "59",
+          "29",
+          "49 (55.7%)",
+          "44 (50.0%)",
+          "35 (39.8%)",
+          "13 (14.8%)",
+          "12 (13.6%)"
+        ],
+        [
+          "A03",
+          "Translation, rewriting, format conversion",
+          "80",
+          "55",
+          "25",
+          "32 (40.0%)",
+          "38 (47.5%)",
+          "50 (62.5%)",
+          "9 (11.2%)",
+          "5 (6.2%)"
+        ],
+        [
+          "F03",
+          "Locating sources, checking claims",
+          "57",
+          "41",
+          "16",
+          "37 (64.9%)",
+          "28 (49.1%)",
+          "16 (28.1%)",
+          "15 (26.3%)",
+          "8 (14.0%)"
+        ],
+        [
+          "Y01",
+          "Future prediction and hypotheticals",
+          "45",
+          "23",
+          "22",
+          "14 (31.1%)",
+          "14 (31.1%)",
+          "19 (42.2%)",
+          "4 (8.9%)",
+          "3 (6.7%)"
+        ],
+        [
+          "UNCLEAR",
+          "Unclear",
+          "24",
+          "12",
+          "12",
+          "8 (33.3%)",
+          "10 (41.7%)",
+          "2 (8.3%)",
+          "1 (4.1%)",
+          "4 (16.7%)"
+        ],
+        [
+          "X02",
+          "Learning routes, possible directions",
+          "16",
+          "11",
+          "5",
+          "10 (62.5%)",
+          "9 (56.2%)",
+          "8 (50.0%)",
+          "4 (25.0%)",
+          "5 (31.2%)"
+        ],
+        [
+          "X03",
+          "Clarifying needs or preferences",
+          "5",
+          "1",
+          "4",
+          "0 (0.0%)",
+          "1 (20.0%)",
+          "1 (20.0%)",
+          "0 (0.0%)",
+          "0 (0.0%)"
+        ],
+        [
+          "MIXED",
+          "Parallel multiple goals",
+          "1",
+          "1",
+          "0",
+          "1 (100.0%)",
+          "1 (100.0%)",
+          "1 (100.0%)",
+          "0 (0.0%)",
+          "1 (100.0%)"
+        ]
+      ],
+      [
+        [
+          "Queries",
+          "Tasks N",
+          "Achieved n",
+          "Explicitly unmet n",
+          "Unknown n",
+          "Topic-switch inference n",
+          "Determinable n",
+          "Achieved among determinable",
+          "Any goal achieved n"
+        ],
+        [
+          "1",
+          "2,026",
+          "933",
+          "63",
+          "993",
+          "37",
+          "996",
+          "93.7%",
+          "933"
+        ],
+        [
+          "2",
+          "802",
+          "368",
+          "42",
+          "391",
+          "1",
+          "410",
+          "89.8%",
+          "461"
+        ],
+        [
+          "3",
+          "494",
+          "197",
+          "19",
+          "278",
+          "0",
+          "216",
+          "91.2%",
+          "292"
+        ],
+        [
+          "4",
+          "612",
+          "263",
+          "29",
+          "320",
+          "0",
+          "292",
+          "90.1%",
+          "399"
+        ],
+        [
+          "5",
+          "336",
+          "157",
+          "11",
+          "168",
+          "0",
+          "168",
+          "93.5%",
+          "234"
+        ],
+        [
+          "6",
+          "285",
+          "130",
+          "9",
+          "146",
+          "0",
+          "139",
+          "93.5%",
+          "194"
+        ],
+        [
+          "7",
+          "186",
+          "85",
+          "7",
+          "94",
+          "0",
+          "92",
+          "92.4%",
+          "127"
+        ],
+        [
+          "8",
+          "132",
+          "65",
+          "8",
+          "59",
+          "0",
+          "73",
+          "89.0%",
+          "100"
+        ],
+        [
+          "9",
+          "76",
+          "34",
+          "4",
+          "38",
+          "0",
+          "38",
+          "89.5%",
+          "56"
+        ],
+        [
+          "10",
+          "59",
+          "19",
+          "2",
+          "38",
+          "0",
+          "21",
+          "90.5%",
+          "34"
+        ],
+        [
+          "11+",
+          "92",
+          "46",
+          "5",
+          "41",
+          "0",
+          "51",
+          "90.2%",
+          "69"
+        ]
+      ],
+      [
+        [
+          "Variable",
+          "y1 cluster logit",
+          "y1 random intercept",
+          "y2 Firth",
+          "y2 random intercept (penalized)"
+        ],
+        [
+          "Initial need: fact location",
+          "0.269 [0.213, 0.339]",
+          "0.221 [0.169, 0.289]",
+          "0.178 [0.099, 0.311]",
+          "0.128 [0.060, 0.271]"
+        ],
+        [
+          "Initial need: experience seeking",
+          "5.074 [3.337, 7.713]",
+          "6.744 [3.983, 11.421]",
+          "4.254 [1.000, 38.958]",
+          "6.889 [1.070, 44.341]"
+        ],
+        [
+          "Initial need: generation and processing",
+          "1.506 [1.199, 1.892]",
+          "1.517 [1.175, 1.958]",
+          "0.379 [0.214, 0.653]",
+          "0.305 [0.152, 0.615]"
+        ],
+        [
+          "Initial need: procedures and troubleshooting",
+          "0.582 [0.478, 0.709]",
+          "0.526 [0.416, 0.665]",
+          "0.400 [0.227, 0.690]",
+          "0.385 [0.193, 0.770]"
+        ],
+        [
+          "Explicit constraints",
+          "0.363 [0.309, 0.427]",
+          "0.280 [0.231, 0.339]",
+          "0.628 [0.436, 0.910]",
+          "0.506 [0.298, 0.858]"
+        ],
+        [
+          "Clear goal",
+          "3.830 [2.392, 6.132]",
+          "5.182 [3.171, 8.469]",
+          "4.428 [1.878, 10.212]",
+          "8.245 [2.480, 27.416]"
+        ],
+        [
+          "G3 solving and producing (count)",
+          "1.088 [1.029, 1.151]",
+          "1.121 [1.049, 1.199]",
+          "1.172 [1.011, 1.376]",
+          "1.256 [1.024, 1.540]"
+        ],
+        [
+          "G4 verifying (count)",
+          "0.924 [0.822, 1.038]",
+          "0.907 [0.796, 1.034]",
+          "0.427 [0.338, 0.534]",
+          "0.311 [0.221, 0.439]"
+        ],
+        [
+          "Queries in task (per +1)",
+          "1.001 [0.923, 1.086]",
+          "0.989 [0.901, 1.087]",
+          "1.119 [0.894, 1.415]",
+          "1.124 [0.845, 1.495]"
+        ],
+        [
+          "Search Arena source",
+          "0.433 [0.325, 0.577]",
+          "0.363 [0.262, 0.503]",
+          "0.757 [0.417, 1.474]",
+          "0.741 [0.299, 1.838]"
+        ],
+        [
+          "Source random intercept σu",
+          "—",
+          "1.15",
+          "—",
+          "1.85"
+        ],
+        [
+          "ICC / MOR",
+          "—",
+          "0.29 / 2.99",
+          "—",
+          "0.51 / 5.86"
+        ]
+      ],
+      [
+        [
+          "Measure",
+          "Traditional search",
+          "AI dialogue",
+          "Difference (AI − traditional) [95% CI]",
+          "After topic standardization (traditional / AI)"
+        ],
+        [
+          "Pure content-word addition (%)",
+          "19.1",
+          "7.6",
+          "−11.5 [−14.0, −8.7]",
+          "19.0 / 7.9"
+        ],
+        [
+          "Both added and deleted terms (%)",
+          "61.2",
+          "87.6",
+          "+26.4 [22.7, 29.8]",
+          "—"
+        ],
+        [
+          "No shared content words (%)",
+          "9.3",
+          "35.7",
+          "+26.4 [22.5, 30.0]",
+          "—"
+        ],
+        [
+          "Content-word Jaccard (mean)",
+          "0.483",
+          "0.163",
+          "−0.321 [−0.343, −0.295]",
+          "0.470 / 0.176"
+        ],
+        [
+          "Semantic similarity (mean)",
+          "0.788",
+          "0.461",
+          "−0.327 [−0.348, −0.303]",
+          "0.768 / 0.466"
+        ],
+        [
+          "Referring or anaphoric words (%)",
+          "1.8",
+          "37.0",
+          "+35.2 [31.7, 39.1]",
+          "—"
+        ],
+        [
+          "Closer to previous feedback than to previous query (%)",
+          "1.9",
+          "35.9",
+          "+34.1 [30.6, 37.3]",
+          "—"
+        ]
+      ],
+      [
+        [
+          "Function pair (earlier → later)",
+          "Observed D",
+          "Null mean",
+          "Null SD",
+          "z",
+          "Two-sided p",
+          "Holm p"
+        ],
+        [
+          "G1 acquiring and understanding → G2 adjusting the need",
+          "163",
+          "121.8",
+          "26.2",
+          "1.57",
+          "0.124",
+          "0.463"
+        ],
+        [
+          "G1 acquiring and understanding → G3 solving and producing",
+          "207",
+          "88.4",
+          "21.8",
+          "5.44",
+          "0.002",
+          "0.020"
+        ],
+        [
+          "G1 acquiring and understanding → G4 verifying",
+          "137",
+          "77.5",
+          "16.4",
+          "3.62",
+          "0.002",
+          "0.020"
+        ],
+        [
+          "G1 acquiring and understanding → G5 advancing and feedback",
+          "93",
+          "57.9",
+          "14.2",
+          "2.46",
+          "0.022",
+          "0.154"
+        ],
+        [
+          "G2 adjusting the need → G3 solving and producing",
+          "31",
+          "−17.8",
+          "21.7",
+          "2.25",
+          "0.028",
+          "0.167"
+        ],
+        [
+          "G2 adjusting the need → G4 verifying",
+          "167",
+          "108.0",
+          "15.1",
+          "3.91",
+          "0.002",
+          "0.020"
+        ],
+        [
+          "G2 adjusting the need → G5 advancing and feedback",
+          "98",
+          "77.1",
+          "16.0",
+          "1.30",
+          "0.190",
+          "0.463"
+        ],
+        [
+          "G3 solving and producing → G4 verifying",
+          "82",
+          "48.3",
+          "14.6",
+          "2.31",
+          "0.028",
+          "0.167"
+        ],
+        [
+          "G3 solving and producing → G5 advancing and feedback",
+          "36",
+          "58.2",
+          "14.0",
+          "−1.58",
+          "0.116",
+          "0.463"
+        ],
+        [
+          "G4 verifying → G5 advancing and feedback",
+          "−1",
+          "4.3",
+          "10.3",
+          "−0.53",
+          "0.645",
+          "0.645"
+        ]
+      ],
+      [
+        [
+          "Case",
+          "Not coded as",
+          "Coded as"
+        ],
+        [
+          "The judge suspects from specialist knowledge that a statement is inaccurate, but the record cannot confirm it",
+          "Explicitly unmet",
+          "Unknown"
+        ],
+        [
+          "The user simply keeps asking or requests more detail",
+          "Explicitly unmet",
+          "Judged on other evidence"
+        ],
+        [
+          "The user explicitly says \"wrong\", \"not useful\", or \"still an error\", and it is not repaired later",
+          "Unknown",
+          "Explicitly unmet"
+        ],
+        [
+          "The answer directly contradicts conditions the user gave (length, scope, format, values, etc.)",
+          "Unknown",
+          "Explicitly unmet"
+        ],
+        [
+          "Only \"thanks\" or \"OK\", or the user switches topic or the conversation ends",
+          "Achieved",
+          "Judged on the output itself; unknown if it cannot be verified"
+        ],
+        [
+          "Specialist facts, time-sensitive information, or code that must be run to confirm, not confirmed by the user",
+          "Achieved",
+          "Unknown"
+        ],
+        [
+          "A complete common-knowledge explanation with no confirmable error",
+          "Unknown",
+          "Achieved"
+        ],
+        [
+          "A goal exists but the material is insufficient or its boundary unclear",
+          "Not applicable",
+          "Unknown"
+        ],
+        [
+          "Part of the request is achieved and another part has explicit evidence of being unmet",
+          "Achieved",
+          "Explicitly unmet"
+        ]
+      ],
+      [
+        [
+          "Strategy",
+          "Definition",
+          "Decision points"
+        ],
+        [
+          "Need narrowing",
+          "Within the same information task, the later query adds an explicit limiting condition or tightens an existing one (time, place, population, specification, scope of evidence, etc.)",
+          "Requires an identifiable earlier scope and a demonstrable restriction; merely using more words, asking about another facet, or naming a subpart is not enough"
+        ],
+        [
+          "Need broadening",
+          "Within the same information task, the later query explicitly removes or relaxes an existing condition or widens the requested range",
+          "Requires an earlier limit and a visible relaxation; fewer words alone is not enough, and an omission that may simply carry over context is coded uncertain"
+        ],
+        [
+          "Same-intent restatement",
+          "Repeats or re-expresses the same information goal, including exact resubmission",
+          "A new facet is not a restatement; if one query both restates and adds a condition, each label needs its own evidence"
+        ],
+        [
+          "Facet switching",
+          "Within the same broad task, the focus moves to another question or aspect (e.g., from cost to safety)",
+          "Distinguish a changed facet from a constraint on the same facet; if the earlier focus cannot be identified, uncertain"
+        ]
+      ],
+      [
+        [
+          "Variable",
+          "y1 OR [95% CI]",
+          "y1 AME, pp [95% CI]",
+          "y1 Holm p",
+          "y2 OR [95% CI]",
+          "y2 AME, pp [95% CI]",
+          "y2 Holm p"
+        ],
+        [
+          "Initial need",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "generation and processing",
+          "1.506 [1.199, 1.892]",
+          "8.9 [4.2, 14.1]",
+          "0.006",
+          "0.379 [0.214, 0.653]",
+          "−5.4 [−8.5, −2.6]",
+          "0.007"
+        ],
+        [
+          "comparison and evaluation",
+          "0.441 [0.355, 0.549]",
+          "−18.6 [−23.2, −13.8]",
+          "<0.001",
+          "0.613 [0.312, 1.224]",
+          "−2.2 [−5.9, 1.1]",
+          "1.000"
+        ],
+        [
+          "fact location",
+          "0.269 [0.213, 0.339]",
+          "−28.8 [−33.4, −24.1]",
+          "<0.001",
+          "0.178 [0.099, 0.311]",
+          "−13.2 [−19.4, −8.0]",
+          "<0.001"
+        ],
+        [
+          "about the AI itself",
+          "0.775 [0.569, 1.055]",
+          "−5.8 [−13.3, 1.2]",
+          "0.630",
+          "0.596 [0.258, 1.514]",
+          "−2.4 [−7.4, 1.9]",
+          "1.000"
+        ],
+        [
+          "procedures and troubleshooting",
+          "0.582 [0.478, 0.709]",
+          "−12.4 [−17.1, −7.9]",
+          "<0.001",
+          "0.400 [0.227, 0.690]",
+          "−5.0 [−8.0, −1.9]",
+          "0.016"
+        ],
+        [
+          "experience seeking",
+          "5.074 [3.337, 7.713]",
+          "28.6 [23.5, 34.1]",
+          "<0.001",
+          "—",
+          "—",
+          "—"
+        ],
+        [
+          "open exploration",
+          "0.506 [0.324, 0.789]",
+          "−15.6 [−25.8, −5.2]",
+          "0.029",
+          "—",
+          "—",
+          "—"
+        ],
+        [
+          "prediction and hypotheticals",
+          "0.332 [0.158, 0.696]",
+          "−24.7 [−39.3, −7.7]",
+          "0.032",
+          "0.471 [0.090, 4.912]",
+          "−3.8 [−14.2, 2.5]",
+          "1.000"
+        ],
+        [
+          "First-query attributes",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Clear goal",
+          "3.830 [2.392, 6.132]",
+          "26.0 [18.4, 32.9]",
+          "<0.001",
+          "4.428 [1.878, 10.212]",
+          "15.4 [4.8, 30.2]",
+          "0.016"
+        ],
+        [
+          "Background provided",
+          "1.471 [1.149, 1.884]",
+          "8.0 [2.8, 12.8]",
+          "0.026",
+          "1.048 [0.582, 1.796]",
+          "0.3 [−3.1, 4.0]",
+          "1.000"
+        ],
+        [
+          "Explicit constraints",
+          "0.363 [0.309, 0.427]",
+          "−21.6 [−24.7, −18.3]",
+          "<0.001",
+          "0.628 [0.436, 0.910]",
+          "−3.2 [−6.0, −0.7]",
+          "0.215"
+        ],
+        [
+          "Verifiable deliverable: yes",
+          "2.754 [1.077, 7.041]",
+          "20.1 [2.0, 35.9]",
+          "0.275",
+          "—",
+          "—",
+          "—"
+        ],
+        [
+          "Verifiable deliverable: partly",
+          "2.609 [1.018, 6.683]",
+          "19.0 [0.5, 35.0]",
+          "0.320",
+          "—",
+          "—",
+          "—"
+        ],
+        [
+          "Process functions",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "G1 acquiring and understanding (count)",
+          "0.982 [0.917, 1.052]",
+          "−0.4 [−1.8, 1.2]",
+          "1.000",
+          "0.951 [0.776, 1.162]",
+          "−0.3 [−2.5, 1.0]",
+          "1.000"
+        ],
+        [
+          "G2 adjusting the need (count)",
+          "0.950 [0.889, 1.014]",
+          "−1.1 [−2.6, 0.4]",
+          "0.630",
+          "0.942 [0.767, 1.154]",
+          "−0.4 [−2.4, 0.9]",
+          "1.000"
+        ],
+        [
+          "G3 solving and producing (count)",
+          "1.088 [1.029, 1.151]",
+          "1.8 [0.7, 2.9]",
+          "0.029",
+          "1.172 [1.011, 1.376]",
+          "1.0 [0.1, 2.1]",
+          "0.494"
+        ],
+        [
+          "G4 verifying (count)",
+          "0.924 [0.822, 1.038]",
+          "−1.7 [−4.1, 0.5]",
+          "0.731",
+          "0.427 [0.338, 0.534]",
+          "−7.3 [−10.9, −5.0]",
+          "<0.001"
+        ],
+        [
+          "G5 advancing and feedback (count)",
+          "1.034 [0.948, 1.127]",
+          "0.7 [−1.2, 2.6]",
+          "1.000",
+          "1.068 [0.811, 1.474]",
+          "0.4 [−1.5, 2.2]",
+          "1.000"
+        ],
+        [
+          "Other",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Queries in task (per +1)",
+          "1.001 [0.923, 1.086]",
+          "0.0 [−1.7, 1.8]",
+          "1.000",
+          "1.119 [0.894, 1.415]",
+          "0.7 [−0.8, 2.4]",
+          "1.000"
+        ],
+        [
+          "Search Arena source",
+          "0.433 [0.325, 0.577]",
+          "−17.1 [−22.4, −11.6]",
+          "<0.001",
+          "0.757 [0.417, 1.474]",
+          "−1.9 [−8.2, 3.1]",
+          "1.000"
+        ],
+        [
+          "Tasks / source conversations",
+          "5,100 / 2,405",
+          "",
+          "",
+          "2,496 / 1,524",
+          "",
+          ""
+        ]
+      ],
+      [
+        [
+          "Model",
+          "Source conversations",
+          "Positions",
+          "Brier",
+          "Log loss"
+        ],
+        [
+          "Zero order",
+          "369",
+          "1663",
+          "0.2220",
+          "0.6405"
+        ],
+        [
+          "First order",
+          "369",
+          "1663",
+          "0.1728",
+          "0.5246"
+        ],
+        [
+          "Second order",
+          "369",
+          "1663",
+          "0.1601",
+          "0.4941"
+        ],
+        [
+          "Unordered two-history",
+          "369",
+          "1663",
+          "0.1649",
+          "0.5049"
+        ]
+      ],
+      [
+        [
+          "Process feature",
+          "Outcome",
+          "n / exposed",
+          "Raw difference",
+          "IPW",
+          "Overlap weighting",
+          "AIPW",
+          "Matched difference"
+        ],
+        [
+          "G1→G3",
+          "Achievement",
+          "1,090 / 416",
+          "6.6",
+          "6.3 [3.2, 9.4]",
+          "6.2 [2.9, 9.2]",
+          "6.2 [2.8, 9.6]",
+          "8.7"
+        ],
+        [
+          "G1→G3",
+          "Determinability",
+          "2,272 / 863",
+          "0.4",
+          "0.6 [−4.1, 5.2]",
+          "−0.2 [−4.6, 4.2]",
+          "1.7 [−3.0, 6.4]",
+          "−2.9"
+        ],
+        [
+          "G1→G3 (selection reweighting)",
+          "Achievement",
+          "1,090 / 416",
+          "—",
+          "10.7 [6.2, 14.7]",
+          "10.5 [5.9, 14.6]",
+          "—",
+          "—"
+        ],
+        [
+          "G1→G3 (WildChat)",
+          "Achievement",
+          "1,034 / 391",
+          "6.0",
+          "6.0 [2.4, 9.1]",
+          "5.9 [2.5, 9.2]",
+          "5.1 [1.6, 8.6]",
+          "7.9"
+        ],
+        [
+          "Need adjustment G2",
+          "Achievement",
+          "1,500 / 950",
+          "−6.6",
+          "−6.8 [−9.5, −3.9]",
+          "−7.3 [−10.1, −4.2]",
+          "−6.7 [−9.7, −3.7]",
+          "−9.0"
+        ],
+        [
+          "Verification G4",
+          "Achievement",
+          "1,500 / 248",
+          "−22.5",
+          "−25.2 [−32.6, −17.9]",
+          "−21.4 [−27.0, −15.9]",
+          "−24.1 [−32.0, −16.3]",
+          "−21.1"
+        ],
+        [
+          "Initial constraints",
+          "Determinability",
+          "5,100 / 1,649",
+          "−21.7",
+          "−18.3 [−22.4, −13.2]",
+          "−22.0 [−25.2, −18.6]",
+          "−21.3 [−26.3, −16.2]",
+          "−24.7"
+        ]
+      ],
+      [
+        [
+          "Layer",
+          "Human–DeepSeek",
+          "Human–GLM",
+          "DeepSeek–GLM",
+          "Three-way"
+        ],
+        [
+          "C01–C15",
+          "0.824 [0.750, 0.862]",
+          "0.852 [0.788, 0.901]",
+          "0.694 [0.614, 0.735]",
+          "0.795 [0.732, 0.819]"
+        ],
+        [
+          "G1–G5",
+          "0.827 [0.768, 0.880]",
+          "0.878 [0.814, 0.921]",
+          "0.718 [0.649, 0.770]",
+          "0.807 [0.760, 0.842]"
+        ]
+      ],
+      [
+        [
+          "Label",
+          "Positive H/A/B",
+          "Human–DeepSeek",
+          "Human–GLM",
+          "DeepSeek–GLM",
+          "Three-way"
+        ],
+        [
+          "C01",
+          "66/48/76",
+          "0.794 [0.634, 0.934]",
+          "0.703 [0.546, 0.832]",
+          "0.482 [0.313, 0.632]",
+          "0.659 [0.547, 0.757]"
+        ],
+        [
+          "C02",
+          "67/56/63",
+          "0.794 [0.666, 0.900]",
+          "0.958 [0.911, 0.991]",
+          "0.745 [0.624, 0.860]",
+          "0.834 [0.759, 0.907]"
+        ],
+        [
+          "C03",
+          "21/27/15",
+          "0.816 [0.650, 0.961]",
+          "0.820 [0.647, 0.936]",
+          "0.688 [0.525, 0.847]",
+          "0.775 [0.649, 0.882]"
+        ],
+        [
+          "C04",
+          "9/6/7",
+          "0.794 [0.277, 1.000]",
+          "0.871 [0.434, 1.000]",
+          "0.763 [-0.003, 1.000]",
+          "0.813 [0.424, 1.000]"
+        ],
+        [
+          "C05",
+          "24/32/11",
+          "0.678 [0.509, 0.818]",
+          "0.601 [0.331, 0.774]",
+          "0.364 [0.137, 0.521]",
+          "0.557 [0.407, 0.661]"
+        ],
+        [
+          "C06",
+          "18/24/14",
+          "0.792 [0.636, 0.921]",
+          "0.867 [0.706, 0.972]",
+          "0.658 [0.455, 0.823]",
+          "0.768 [0.630, 0.882]"
+        ],
+        [
+          "C07",
+          "38/39/33",
+          "0.800 [0.602, 0.926]",
+          "0.918 [0.846, 0.984]",
+          "0.707 [0.517, 0.848]",
+          "0.808 [0.676, 0.901]"
+        ],
+        [
+          "C08",
+          "9/10/9",
+          "0.945 [0.665, 1.000]",
+          "1.000 [1.000, 1.000]",
+          "0.945 [0.665, 1.000]",
+          "0.963 [0.749, 1.000]"
+        ],
+        [
+          "C09",
+          "44/46/44",
+          "0.864 [0.729, 0.962]",
+          "1.000 [1.000, 1.000]",
+          "0.864 [0.729, 0.962]",
+          "0.909 [0.814, 0.975]"
+        ],
+        [
+          "C10",
+          "24/32/18",
+          "0.799 [0.599, 0.915]",
+          "0.844 [0.534, 0.980]",
+          "0.644 [0.290, 0.839]",
+          "0.760 [0.513, 0.891]"
+        ],
+        [
+          "C11",
+          "48/47/41",
+          "0.778 [0.649, 0.886]",
+          "0.904 [0.799, 0.972]",
+          "0.668 [0.469, 0.806]",
+          "0.784 [0.648, 0.875]"
+        ],
+        [
+          "C12",
+          "19/20/18",
+          "0.805 [0.592, 0.944]",
+          "0.971 [0.884, 1.000]",
+          "0.772 [0.539, 0.917]",
+          "0.848 [0.691, 0.944]"
+        ],
+        [
+          "C13",
+          "7/9/7",
+          "0.871 [-0.002, 1.000]",
+          "1.000 [1.000, 1.000]",
+          "0.871 [-0.002, 1.000]",
+          "0.910 [-0.001, 1.000]"
+        ],
+        [
+          "C14",
+          "22/22/22",
+          "1.000 [1.000, 1.000]",
+          "1.000 [1.000, 1.000]",
+          "1.000 [1.000, 1.000]",
+          "1.000 [1.000, 1.000]"
+        ],
+        [
+          "C15",
+          "5/7/1",
+          "0.829 [0.393, 1.000]",
+          "0.326 [-0.014, 1.000]",
+          "0.239 [-0.020, 0.665]",
+          "0.531 [0.196, 0.799]"
+        ],
+        [
+          "G1",
+          "135/123/136",
+          "0.852 [0.766, 0.930]",
+          "0.859 [0.779, 0.925]",
+          "0.713 [0.605, 0.805]",
+          "0.808 [0.735, 0.870]"
+        ],
+        [
+          "G2",
+          "72/84/56",
+          "0.737 [0.594, 0.853]",
+          "0.831 [0.747, 0.905]",
+          "0.580 [0.442, 0.696]",
+          "0.715 [0.616, 0.796]"
+        ],
+        [
+          "G3",
+          "88/91/87",
+          "0.903 [0.832, 0.964]",
+          "0.991 [0.967, 1.000]",
+          "0.894 [0.823, 0.955]",
+          "0.929 [0.882, 0.970]"
+        ],
+        [
+          "G4",
+          "21/27/15",
+          "0.816 [0.650, 0.961]",
+          "0.820 [0.647, 0.936]",
+          "0.688 [0.525, 0.847]",
+          "0.775 [0.649, 0.882]"
+        ],
+        [
+          "G5",
+          "33/42/27",
+          "0.827 [0.705, 0.917]",
+          "0.886 [0.706, 0.985]",
+          "0.714 [0.499, 0.854]",
+          "0.807 [0.661, 0.902]"
+        ]
+      ],
+      [
+        [
+          "Comparison",
+          "Positions",
+          "Paired judgments",
+          "Macro α [95% CI]",
+          "Agreement"
+        ],
+        [
+          "Human / GPT-6",
+          "244",
+          "1,217",
+          "0.742 [0.690, 0.785]",
+          "90.22%"
+        ],
+        [
+          "Human / DeepSeek Flash",
+          "244",
+          "1,213",
+          "0.763 [0.709, 0.811]",
+          "91.51%"
+        ]
+      ]
+    ]
+  },
+  "source_documents": {
+    "English_Manuscript_v5.docx": "English_Manuscript.docx",
+    "中文对照译文_v5.docx": "中文对照译文.docx",
+    "English_Supplementary_Material_v5.docx": "Supplementary_Material.docx"
+  }
+}

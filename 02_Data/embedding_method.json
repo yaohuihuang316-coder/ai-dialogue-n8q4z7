@@ -1,0 +1,16 @@
+{
+  "model": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+  "revision": "e8f8c211226b894fcb81acc59f3b34ba3efd5f42",
+  "pooling": "attention-mask mean pooling, then L2 normalization",
+  "max_tokens": 128,
+  "inference": "local float32 eval, no instruction prefix, no training",
+  "aggregation": "equal weight ten depth-by-position cell means; 1000 source-cluster bootstrap draws",
+  "semantic_filter": "cosine >= 0.5, as supplied manuscript",
+  "regression": "OLS Jaccard ~ AI + log1p(previous word count) + log1p(current word count), source-cluster robust CI; ten-cell weighted sensitivity",
+  "lexical_primary": "NFKC casefold Unicode word tokens excluding sklearn ENGLISH_STOP_WORDS, set Jaccard; empty union=0",
+  "feedback": "last actual feedback after previous query in recovered prefix; AI assistant text, TREC concatenated displayed titles/snippets. Missing feedback remains missing, not zero.",
+  "seed": 20261112,
+  "input_pairs": 3847,
+  "raw_text": "Access through original releases; not distributed here.",
+  "output_schema": "One row per side/source_key/position, aligned with comparison_pairs.json."
+}

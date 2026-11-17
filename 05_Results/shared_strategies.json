@@ -1,0 +1,729 @@
+{
+  "TREC2014": {
+    "frame_pairs": 1809,
+    "sources": 796,
+    "eligible_same_task_pairs": 1635,
+    "excluded_pairs": 174,
+    "excluded_fraction": 0.09618573797678276,
+    "strategies": {
+      "SH_NARROW": {
+        "yes": 260,
+        "known": 1581,
+        "standardized_rate": 0.16952058495305408,
+        "cells": [
+          {
+            "depth": 2,
+            "position": 1,
+            "yes": 33,
+            "known": 208,
+            "eligible": 213,
+            "rate": 0.15865384615384615
+          },
+          {
+            "depth": 3,
+            "position": 1,
+            "yes": 27,
+            "known": 180,
+            "eligible": 190,
+            "rate": 0.15
+          },
+          {
+            "depth": 3,
+            "position": 2,
+            "yes": 23,
+            "known": 201,
+            "eligible": 204,
+            "rate": 0.11442786069651742
+          },
+          {
+            "depth": 4,
+            "position": 1,
+            "yes": 36,
+            "known": 159,
+            "eligible": 165,
+            "rate": 0.22641509433962265
+          },
+          {
+            "depth": 4,
+            "position": 2,
+            "yes": 39,
+            "known": 174,
+            "eligible": 177,
+            "rate": 0.22413793103448276
+          },
+          {
+            "depth": 4,
+            "position": 3,
+            "yes": 18,
+            "known": 172,
+            "eligible": 179,
+            "rate": 0.10465116279069768
+          },
+          {
+            "depth": 5,
+            "position": 1,
+            "yes": 33,
+            "known": 104,
+            "eligible": 112,
+            "rate": 0.3173076923076923
+          },
+          {
+            "depth": 5,
+            "position": 2,
+            "yes": 17,
+            "known": 131,
+            "eligible": 133,
+            "rate": 0.1297709923664122
+          },
+          {
+            "depth": 5,
+            "position": 3,
+            "yes": 17,
+            "known": 126,
+            "eligible": 131,
+            "rate": 0.1349206349206349
+          },
+          {
+            "depth": 5,
+            "position": 4,
+            "yes": 17,
+            "known": 126,
+            "eligible": 131,
+            "rate": 0.1349206349206349
+          }
+        ]
+      },
+      "SH_BROADEN": {
+        "yes": 51,
+        "known": 1373,
+        "standardized_rate": 0.037866452869706135,
+        "cells": [
+          {
+            "depth": 2,
+            "position": 1,
+            "yes": 7,
+            "known": 188,
+            "eligible": 213,
+            "rate": 0.03723404255319149
+          },
+          {
+            "depth": 3,
+            "position": 1,
+            "yes": 4,
+            "known": 157,
+            "eligible": 190,
+            "rate": 0.025477707006369428
+          },
+          {
+            "depth": 3,
+            "position": 2,
+            "yes": 3,
+            "known": 168,
+            "eligible": 204,
+            "rate": 0.017857142857142856
+          },
+          {
+            "depth": 4,
+            "position": 1,
+            "yes": 7,
+            "known": 137,
+            "eligible": 165,
+            "rate": 0.051094890510948905
+          },
+          {
+            "depth": 4,
+            "position": 2,
+            "yes": 3,
+            "known": 139,
+            "eligible": 177,
+            "rate": 0.02158273381294964
+          },
+          {
+            "depth": 4,
+            "position": 3,
+            "yes": 10,
+            "known": 159,
+            "eligible": 179,
+            "rate": 0.06289308176100629
+          },
+          {
+            "depth": 5,
+            "position": 1,
+            "yes": 5,
+            "known": 92,
+            "eligible": 112,
+            "rate": 0.05434782608695652
+          },
+          {
+            "depth": 5,
+            "position": 2,
+            "yes": 4,
+            "known": 115,
+            "eligible": 133,
+            "rate": 0.034782608695652174
+          },
+          {
+            "depth": 5,
+            "position": 3,
+            "yes": 1,
+            "known": 109,
+            "eligible": 131,
+            "rate": 0.009174311926605505
+          },
+          {
+            "depth": 5,
+            "position": 4,
+            "yes": 7,
+            "known": 109,
+            "eligible": 131,
+            "rate": 0.06422018348623854
+          }
+        ]
+      },
+      "SH_SAME_INTENT_REPHRASE": {
+        "yes": 498,
+        "known": 1526,
+        "standardized_rate": 0.3222751567248353,
+        "cells": [
+          {
+            "depth": 2,
+            "position": 1,
+            "yes": 66,
+            "known": 198,
+            "eligible": 213,
+            "rate": 0.3333333333333333
+          },
+          {
+            "depth": 3,
+            "position": 1,
+            "yes": 55,
+            "known": 177,
+            "eligible": 190,
+            "rate": 0.3107344632768362
+          },
+          {
+            "depth": 3,
+            "position": 2,
+            "yes": 71,
+            "known": 188,
+            "eligible": 204,
+            "rate": 0.3776595744680851
+          },
+          {
+            "depth": 4,
+            "position": 1,
+            "yes": 46,
+            "known": 157,
+            "eligible": 165,
+            "rate": 0.2929936305732484
+          },
+          {
+            "depth": 4,
+            "position": 2,
+            "yes": 54,
+            "known": 164,
+            "eligible": 177,
+            "rate": 0.32926829268292684
+          },
+          {
+            "depth": 4,
+            "position": 3,
+            "yes": 61,
+            "known": 171,
+            "eligible": 179,
+            "rate": 0.3567251461988304
+          },
+          {
+            "depth": 5,
+            "position": 1,
+            "yes": 26,
+            "known": 105,
+            "eligible": 112,
+            "rate": 0.24761904761904763
+          },
+          {
+            "depth": 5,
+            "position": 2,
+            "yes": 42,
+            "known": 125,
+            "eligible": 133,
+            "rate": 0.336
+          },
+          {
+            "depth": 5,
+            "position": 3,
+            "yes": 36,
+            "known": 118,
+            "eligible": 131,
+            "rate": 0.3050847457627119
+          },
+          {
+            "depth": 5,
+            "position": 4,
+            "yes": 41,
+            "known": 123,
+            "eligible": 131,
+            "rate": 0.3333333333333333
+          }
+        ]
+      },
+      "SH_ASPECT_SWITCH": {
+        "yes": 654,
+        "known": 1477,
+        "standardized_rate": 0.43875998760474283,
+        "cells": [
+          {
+            "depth": 2,
+            "position": 1,
+            "yes": 93,
+            "known": 197,
+            "eligible": 213,
+            "rate": 0.4720812182741117
+          },
+          {
+            "depth": 3,
+            "position": 1,
+            "yes": 73,
+            "known": 161,
+            "eligible": 190,
+            "rate": 0.453416149068323
+          },
+          {
+            "depth": 3,
+            "position": 2,
+            "yes": 90,
+            "known": 192,
+            "eligible": 204,
+            "rate": 0.46875
+          },
+          {
+            "depth": 4,
+            "position": 1,
+            "yes": 46,
+            "known": 134,
+            "eligible": 165,
+            "rate": 0.34328358208955223
+          },
+          {
+            "depth": 4,
+            "position": 2,
+            "yes": 65,
+            "known": 161,
+            "eligible": 177,
+            "rate": 0.40372670807453415
+          },
+          {
+            "depth": 4,
+            "position": 3,
+            "yes": 79,
+            "known": 170,
+            "eligible": 179,
+            "rate": 0.4647058823529412
+          },
+          {
+            "depth": 5,
+            "position": 1,
+            "yes": 34,
+            "known": 99,
+            "eligible": 112,
+            "rate": 0.3434343434343434
+          },
+          {
+            "depth": 5,
+            "position": 2,
+            "yes": 63,
+            "known": 128,
+            "eligible": 133,
+            "rate": 0.4921875
+          },
+          {
+            "depth": 5,
+            "position": 3,
+            "yes": 58,
+            "known": 115,
+            "eligible": 131,
+            "rate": 0.5043478260869565
+          },
+          {
+            "depth": 5,
+            "position": 4,
+            "yes": 53,
+            "known": 120,
+            "eligible": 131,
+            "rate": 0.44166666666666665
+          }
+        ]
+      }
+    },
+    "narrowing_lexical_categories": {
+      "delete": 12,
+      "replace": 112,
+      "add": 117,
+      "disjoint": 17,
+      "unchanged": 2
+    }
+  },
+  "AI_English": {
+    "frame_pairs": 2038,
+    "sources": 1524,
+    "eligible_same_task_pairs": 1722,
+    "excluded_pairs": 316,
+    "excluded_fraction": 0.155053974484789,
+    "strategies": {
+      "SH_NARROW": {
+        "yes": 668,
+        "known": 1701,
+        "standardized_rate": 0.3948682454303304,
+        "cells": [
+          {
+            "depth": 2,
+            "position": 1,
+            "yes": 331,
+            "known": 867,
+            "eligible": 871,
+            "rate": 0.3817762399077278
+          },
+          {
+            "depth": 3,
+            "position": 1,
+            "yes": 80,
+            "known": 193,
+            "eligible": 194,
+            "rate": 0.41450777202072536
+          },
+          {
+            "depth": 3,
+            "position": 2,
+            "yes": 78,
+            "known": 200,
+            "eligible": 206,
+            "rate": 0.39
+          },
+          {
+            "depth": 4,
+            "position": 1,
+            "yes": 48,
+            "known": 92,
+            "eligible": 95,
+            "rate": 0.5217391304347826
+          },
+          {
+            "depth": 4,
+            "position": 2,
+            "yes": 41,
+            "known": 95,
+            "eligible": 95,
+            "rate": 0.43157894736842106
+          },
+          {
+            "depth": 4,
+            "position": 3,
+            "yes": 24,
+            "known": 79,
+            "eligible": 81,
+            "rate": 0.3037974683544304
+          },
+          {
+            "depth": 5,
+            "position": 1,
+            "yes": 20,
+            "known": 46,
+            "eligible": 48,
+            "rate": 0.43478260869565216
+          },
+          {
+            "depth": 5,
+            "position": 2,
+            "yes": 18,
+            "known": 45,
+            "eligible": 47,
+            "rate": 0.4
+          },
+          {
+            "depth": 5,
+            "position": 3,
+            "yes": 15,
+            "known": 47,
+            "eligible": 47,
+            "rate": 0.3191489361702128
+          },
+          {
+            "depth": 5,
+            "position": 4,
+            "yes": 13,
+            "known": 37,
+            "eligible": 38,
+            "rate": 0.35135135135135137
+          }
+        ]
+      },
+      "SH_BROADEN": {
+        "yes": 81,
+        "known": 1687,
+        "standardized_rate": 0.07273927505449222,
+        "cells": [
+          {
+            "depth": 2,
+            "position": 1,
+            "yes": 31,
+            "known": 853,
+            "eligible": 871,
+            "rate": 0.03634232121922626
+          },
+          {
+            "depth": 3,
+            "position": 1,
+            "yes": 8,
+            "known": 188,
+            "eligible": 194,
+            "rate": 0.0425531914893617
+          },
+          {
+            "depth": 3,
+            "position": 2,
+            "yes": 6,
+            "known": 202,
+            "eligible": 206,
+            "rate": 0.0297029702970297
+          },
+          {
+            "depth": 4,
+            "position": 1,
+            "yes": 5,
+            "known": 93,
+            "eligible": 95,
+            "rate": 0.053763440860215055
+          },
+          {
+            "depth": 4,
+            "position": 2,
+            "yes": 7,
+            "known": 94,
+            "eligible": 95,
+            "rate": 0.07446808510638298
+          },
+          {
+            "depth": 4,
+            "position": 3,
+            "yes": 7,
+            "known": 79,
+            "eligible": 81,
+            "rate": 0.08860759493670886
+          },
+          {
+            "depth": 5,
+            "position": 1,
+            "yes": 3,
+            "known": 47,
+            "eligible": 48,
+            "rate": 0.06382978723404255
+          },
+          {
+            "depth": 5,
+            "position": 2,
+            "yes": 4,
+            "known": 47,
+            "eligible": 47,
+            "rate": 0.0851063829787234
+          },
+          {
+            "depth": 5,
+            "position": 3,
+            "yes": 3,
+            "known": 47,
+            "eligible": 47,
+            "rate": 0.06382978723404255
+          },
+          {
+            "depth": 5,
+            "position": 4,
+            "yes": 7,
+            "known": 37,
+            "eligible": 38,
+            "rate": 0.1891891891891892
+          }
+        ]
+      },
+      "SH_SAME_INTENT_REPHRASE": {
+        "yes": 253,
+        "known": 1718,
+        "standardized_rate": 0.14849625343293635,
+        "cells": [
+          {
+            "depth": 2,
+            "position": 1,
+            "yes": 137,
+            "known": 868,
+            "eligible": 871,
+            "rate": 0.1578341013824885
+          },
+          {
+            "depth": 3,
+            "position": 1,
+            "yes": 20,
+            "known": 194,
+            "eligible": 194,
+            "rate": 0.10309278350515463
+          },
+          {
+            "depth": 3,
+            "position": 2,
+            "yes": 24,
+            "known": 206,
+            "eligible": 206,
+            "rate": 0.11650485436893204
+          },
+          {
+            "depth": 4,
+            "position": 1,
+            "yes": 7,
+            "known": 95,
+            "eligible": 95,
+            "rate": 0.07368421052631578
+          },
+          {
+            "depth": 4,
+            "position": 2,
+            "yes": 18,
+            "known": 95,
+            "eligible": 95,
+            "rate": 0.18947368421052632
+          },
+          {
+            "depth": 4,
+            "position": 3,
+            "yes": 19,
+            "known": 80,
+            "eligible": 81,
+            "rate": 0.2375
+          },
+          {
+            "depth": 5,
+            "position": 1,
+            "yes": 9,
+            "known": 48,
+            "eligible": 48,
+            "rate": 0.1875
+          },
+          {
+            "depth": 5,
+            "position": 2,
+            "yes": 7,
+            "known": 47,
+            "eligible": 47,
+            "rate": 0.14893617021276595
+          },
+          {
+            "depth": 5,
+            "position": 3,
+            "yes": 9,
+            "known": 47,
+            "eligible": 47,
+            "rate": 0.19148936170212766
+          },
+          {
+            "depth": 5,
+            "position": 4,
+            "yes": 3,
+            "known": 38,
+            "eligible": 38,
+            "rate": 0.07894736842105263
+          }
+        ]
+      },
+      "SH_ASPECT_SWITCH": {
+        "yes": 788,
+        "known": 1718,
+        "standardized_rate": 0.4680087720405048,
+        "cells": [
+          {
+            "depth": 2,
+            "position": 1,
+            "yes": 392,
+            "known": 869,
+            "eligible": 871,
+            "rate": 0.45109321058688145
+          },
+          {
+            "depth": 3,
+            "position": 1,
+            "yes": 86,
+            "known": 194,
+            "eligible": 194,
+            "rate": 0.44329896907216493
+          },
+          {
+            "depth": 3,
+            "position": 2,
+            "yes": 102,
+            "known": 205,
+            "eligible": 206,
+            "rate": 0.4975609756097561
+          },
+          {
+            "depth": 4,
+            "position": 1,
+            "yes": 43,
+            "known": 95,
+            "eligible": 95,
+            "rate": 0.45263157894736844
+          },
+          {
+            "depth": 4,
+            "position": 2,
+            "yes": 42,
+            "known": 95,
+            "eligible": 95,
+            "rate": 0.4421052631578947
+          },
+          {
+            "depth": 4,
+            "position": 3,
+            "yes": 37,
+            "known": 80,
+            "eligible": 81,
+            "rate": 0.4625
+          },
+          {
+            "depth": 5,
+            "position": 1,
+            "yes": 22,
+            "known": 48,
+            "eligible": 48,
+            "rate": 0.4583333333333333
+          },
+          {
+            "depth": 5,
+            "position": 2,
+            "yes": 24,
+            "known": 47,
+            "eligible": 47,
+            "rate": 0.5106382978723404
+          },
+          {
+            "depth": 5,
+            "position": 3,
+            "yes": 18,
+            "known": 47,
+            "eligible": 47,
+            "rate": 0.3829787234042553
+          },
+          {
+            "depth": 5,
+            "position": 4,
+            "yes": 22,
+            "known": 38,
+            "eligible": 38,
+            "rate": 0.5789473684210527
+          }
+        ]
+      }
+    },
+    "narrowing_lexical_categories": {
+      "replace": 476,
+      "disjoint": 118,
+      "add": 72,
+      "delete": 2
+    }
+  }
+}

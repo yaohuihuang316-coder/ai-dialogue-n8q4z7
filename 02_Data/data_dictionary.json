@@ -1,0 +1,22 @@
+{
+  "task_record": {
+    "source_key": "Pseudonymous source identifier",
+    "task_id": "Pseudonymous task identifier",
+    "queries": "Nonempty user requests in the task, including opening",
+    "steps": "Follow-up count, queries minus one",
+    "sequence5": "Ordered list of five-function sets; plus-separated functions within a position are unordered",
+    "fine_labels": "Original 15-category values and subtypes at follow-up positions",
+    "opening_fields": "Opening attributes for main and original external tasks",
+    "outcome": "Overall goal evidence: confirmed, unmet, unknown, or topic-change inference",
+    "any_goal_outcome": "Evidence for at least one overall or local goal",
+    "batch": "Original 342 or additional 200 external source batch",
+    "source_order": "Stable resampling order without publishing raw source keys"
+  },
+  "comparison_record": {
+    "side": "TREC2014 or AI_English",
+    "depth": "Session depth used for cell standardization",
+    "position": "Adjacent-pair position",
+    "labels": "Eligibility, task relation, and four common semantic strategy judgments",
+    "lexical": "Derived token counts, change category, and content-word Jaccard"
+  }
+}

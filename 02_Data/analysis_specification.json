@@ -1,0 +1,50 @@
+{
+  "version": "2026-11-05",
+  "main_sources": 2405,
+  "main_tasks": 5100,
+  "main_followups": 10850,
+  "external_sources": 542,
+  "external_tasks": 1404,
+  "external_followup_tasks": 704,
+  "mapping": {
+    "G1": [
+      "C01",
+      "C02",
+      "C04.02",
+      "C04.03",
+      "C04.04",
+      "C11",
+      "C15"
+    ],
+    "G2": [
+      "C05",
+      "C06",
+      "C07"
+    ],
+    "G3": [
+      "C09",
+      "C12",
+      "C13",
+      "C14"
+    ],
+    "G4": [
+      "C03",
+      "C04.01"
+    ],
+    "G5": [
+      "C08",
+      "C10"
+    ]
+  },
+  "external_function_order": [
+    "G1",
+    "G2",
+    "G3",
+    "G4",
+    "G5"
+  ],
+  "regularization": 0.005,
+  "bootstrap_replicates": 2000,
+  "bootstrap_seed": 20261105,
+  "source_order": "Stable rank of original source keys, used only for exactly reproducing seeded source resampling."
+}

@@ -1,0 +1,96 @@
+{
+  "signature": "7241ddfcbc329131d5ae4d604e69ac4a2f2711d47f71869e433e0a8dfe3c5cce",
+  "passed": true,
+  "smoke": false,
+  "input_tasks": 5100,
+  "reweighted": {
+    "eligible_tasks": 2272,
+    "tasks": 1090,
+    "exposed": 416,
+    "sources": 2062,
+    "observation_model": "MLE",
+    "propensity_model": "MLE",
+    "IPW": 0.10682178448581203,
+    "ATO": 0.10511083618845662,
+    "IPW_CI95": [
+      0.06167226439823128,
+      0.1467796569903864
+    ],
+    "ATO_CI95": [
+      0.05905791421091659,
+      0.1459634638826888
+    ],
+    "bootstrap_requested": 1000,
+    "bootstrap_success": 1000,
+    "failed_replicates": []
+  },
+  "matching": [
+    {
+      "exposure": "G1_then_G3",
+      "outcome": "y2",
+      "pairs": 404,
+      "risk_difference": 0.08663366336633663,
+      "caliper_logit": 0.15749755778494154,
+      "discordant_positive": 53,
+      "discordant_negative": 18,
+      "Rosenbaum_gamma_one_sided": 1.8400000000000007,
+      "direction": 1
+    },
+    {
+      "exposure": "G1_then_G3",
+      "outcome": "y1",
+      "pairs": 760,
+      "risk_difference": -0.02894736842105263,
+      "caliper_logit": 0.18015873836487362,
+      "discordant_positive": 168,
+      "discordant_negative": 190,
+      "Rosenbaum_gamma_one_sided": 1.0,
+      "direction": -1
+    },
+    {
+      "exposure": "G2",
+      "outcome": "y2",
+      "pairs": 476,
+      "risk_difference": -0.09033613445378151,
+      "caliper_logit": 0.17056912191818452,
+      "discordant_positive": 20,
+      "discordant_negative": 63,
+      "Rosenbaum_gamma_one_sided": 2.030000000000001,
+      "direction": -1
+    },
+    {
+      "exposure": "G4",
+      "outcome": "y2",
+      "pairs": 246,
+      "risk_difference": -0.21138211382113822,
+      "caliper_logit": 0.1289972726325244,
+      "discordant_positive": 13,
+      "discordant_negative": 65,
+      "Rosenbaum_gamma_one_sided": 2.9800000000000018,
+      "direction": -1
+    },
+    {
+      "exposure": "constraints",
+      "outcome": "y1",
+      "pairs": 1621,
+      "risk_difference": -0.24676125848241826,
+      "caliper_logit": 0.20741878491285035,
+      "discordant_positive": 206,
+      "discordant_negative": 606,
+      "Rosenbaum_gamma_one_sided": 2.5800000000000014,
+      "direction": -1
+    },
+    {
+      "exposure": "G1_then_G3_WildChat",
+      "outcome": "y2",
+      "pairs": 378,
+      "risk_difference": 0.07936507936507936,
+      "caliper_logit": 0.17089902813747426,
+      "discordant_positive": 46,
+      "discordant_negative": 16,
+      "Rosenbaum_gamma_one_sided": 1.7400000000000007,
+      "direction": 1
+    }
+  ],
+  "seconds": 163.12016940116882
+}

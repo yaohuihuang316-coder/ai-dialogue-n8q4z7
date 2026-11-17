@@ -1,0 +1,1069 @@
+{
+  "definition": {
+    "design": "archived human rejudgment versus independently returned V13 model codes on the same message positions; paired comparison, not a fresh same-protocol human blind coding",
+    "G_mapping": "FUNCTION5_FROM_FUNCTION15_v1 applied identically to BOTH sides; C04 to G1; no subtypes inferred for human",
+    "bootstrap": {
+      "resamples": 2000,
+      "source_cluster_seed": 20261106
+    },
+    "sources": 50,
+    "designated_tasks": 50,
+    "positions": 244
+  },
+  "pairs": {
+    "GPT6": {
+      "C15": {
+        "positions": 244,
+        "sources": 50,
+        "paired_cells": 3655,
+        "excluded_cells": 5,
+        "macro_alpha": 0.7448722056443591,
+        "macro_alpha_ci95": [
+          0.6759064017981194,
+          0.7837166134117355
+        ],
+        "macro_alpha_finite_labels": 15,
+        "micro_agreement": 0.9430916552667579,
+        "micro_positive_agreement_F1": 0.7652370203160271,
+        "complete_set_positions": 240,
+        "exact_set_agreement": 0.4375,
+        "mean_set_jaccard": 0.6956349206349207,
+        "per_label": [
+          {
+            "label": "C01",
+            "paired_n": 244,
+            "alpha": 0.640533046063,
+            "kappa": 0.6414045122338735,
+            "agreement": 0.8483606557377049,
+            "positive_agreement_F1": 0.7482993197278912,
+            "alpha_ci95": [
+              0.4741677650344778,
+              0.7598174718322368
+            ],
+            "valid_bootstrap": 2000,
+            "confusion_00_01_10_11": [
+              152,
+              26,
+              11,
+              55
+            ],
+            "human_yes": 66,
+            "model_yes": 81
+          },
+          {
+            "label": "C02",
+            "paired_n": 243,
+            "alpha": 0.684987345741226,
+            "kappa": 0.6849094567404426,
+            "agreement": 0.8806584362139918,
+            "positive_agreement_F1": 0.7642276422764228,
+            "alpha_ci95": [
+              0.5753938582699868,
+              0.7793834662998592
+            ],
+            "valid_bootstrap": 2000,
+            "confusion_00_01_10_11": [
+              167,
+              10,
+              19,
+              47
+            ],
+            "human_yes": 66,
+            "model_yes": 57
+          },
+          {
+            "label": "C03",
+            "paired_n": 244,
+            "alpha": 0.7507166257166258,
+            "kappa": 0.750255885363357,
+            "agreement": 0.9590163934426229,
+            "positive_agreement_F1": 0.7727272727272727,
+            "alpha_ci95": [
+              0.5789545032527703,
+              0.8861588973203225
+            ],
+            "valid_bootstrap": 2000,
+            "confusion_00_01_10_11": [
+              217,
+              6,
+              4,
+              17
+            ],
+            "human_yes": 21,
+            "model_yes": 23
+          },
+          {
+            "label": "C04",
+            "paired_n": 244,
+            "alpha": 0.6546099290780142,
+            "kappa": 0.6539007092198575,
+            "agreement": 0.9754098360655737,
+            "positive_agreement_F1": 0.6666666666666666,
+            "alpha_ci95": [
+              0.20840615625407585,
+              1.0
+            ],
+            "valid_bootstrap": 1998,
+            "confusion_00_01_10_11": [
+              232,
+              3,
+              3,
+              6
+            ],
+            "human_yes": 9,
+            "model_yes": 9
+          },
+          {
+            "label": "C05",
+            "paired_n": 244,
+            "alpha": 0.4805025482991585,
+            "kappa": 0.4819125511167037,
+            "agreement": 0.889344262295082,
+            "positive_agreement_F1": 0.5423728813559322,
+            "alpha_ci95": [
+              0.25693632748956957,
+              0.6779181923257888
+            ],
+            "valid_bootstrap": 2000,
+            "confusion_00_01_10_11": [
+              201,
+              19,
+              8,
+              16
+            ],
+            "human_yes": 24,
+            "model_yes": 35
+          },
+          {
+            "label": "C06",
+            "paired_n": 244,
+            "alpha": 0.7373404446575178,
+            "kappa": 0.7368168744007673,
+            "agreement": 0.9631147540983607,
+            "positive_agreement_F1": 0.7567567567567568,
+            "alpha_ci95": [
+              0.5661251379002671,
+              0.8665168099857927
+            ],
+            "valid_bootstrap": 2000,
+            "confusion_00_01_10_11": [
+              221,
+              5,
+              4,
+              14
+            ],
+            "human_yes": 18,
+            "model_yes": 19
+          },
+          {
+            "label": "C07",
+            "paired_n": 244,
+            "alpha": 0.6737018425460637,
+            "kappa": 0.6748111950244335,
+            "agreement": 0.9016393442622951,
+            "positive_agreement_F1": 0.7333333333333333,
+            "alpha_ci95": [
+              0.48634056404372733,
+              0.7998687562979642
+            ],
+            "valid_bootstrap": 2000,
+            "confusion_00_01_10_11": [
+              187,
+              19,
+              5,
+              33
+            ],
+            "human_yes": 38,
+            "model_yes": 52
+          },
+          {
+            "label": "C08",
+            "paired_n": 244,
+            "alpha": 0.9453484457412187,
+            "kappa": 0.9452423698384208,
+            "agreement": 0.9959016393442623,
+            "positive_agreement_F1": 0.9473684210526315,
+            "alpha_ci95": [
+              0.6652391149179158,
+              1.0
+            ],
+            "valid_bootstrap": 1967,
+            "confusion_00_01_10_11": [
+              234,
+              1,
+              0,
+              9
+            ],
+            "human_yes": 9,
+            "model_yes": 10
+          },
+          {
+            "label": "C09",
+            "paired_n": 244,
+            "alpha": 0.774629100313053,
+            "kappa": 0.7743199129488574,
+            "agreement": 0.930327868852459,
+            "positive_agreement_F1": 0.8172043010752689,
+            "alpha_ci95": [
+              0.590696318758084,
+              0.9056387812358846
+            ],
+            "valid_bootstrap": 2000,
+            "confusion_00_01_10_11": [
+              189,
+              11,
+              6,
+              38
+            ],
+            "human_yes": 44,
+            "model_yes": 49
+          },
+          {
+            "label": "C10",
+            "paired_n": 244,
+            "alpha": 0.7851976005645731,
+            "kappa": 0.7849083215796895,
+            "agreement": 0.9590163934426229,
+            "positive_agreement_F1": 0.8076923076923077,
+            "alpha_ci95": [
+              0.582673912676864,
+              0.9109343751157365
+            ],
+            "valid_bootstrap": 2000,
+            "confusion_00_01_10_11": [
+              213,
+              7,
+              3,
+              21
+            ],
+            "human_yes": 24,
+            "model_yes": 28
+          },
+          {
+            "label": "C11",
+            "paired_n": 243,
+            "alpha": 0.721333005006977,
+            "kappa": 0.7208271787296896,
+            "agreement": 0.9135802469135802,
+            "positive_agreement_F1": 0.7741935483870968,
+            "alpha_ci95": [
+              0.5498072868063929,
+              0.8488171805471386
+            ],
+            "valid_bootstrap": 2000,
+            "confusion_00_01_10_11": [
+              186,
+              9,
+              12,
+              36
+            ],
+            "human_yes": 48,
+            "model_yes": 45
+          },
+          {
+            "label": "C12",
+            "paired_n": 244,
+            "alpha": 0.7849889624724062,
+            "kappa": 0.784669692385275,
+            "agreement": 0.9713114754098361,
+            "positive_agreement_F1": 0.8,
+            "alpha_ci95": [
+              0.48515904556644607,
+              0.9634497526397401
+            ],
+            "valid_bootstrap": 2000,
+            "confusion_00_01_10_11": [
+              223,
+              2,
+              5,
+              14
+            ],
+            "human_yes": 19,
+            "model_yes": 16
+          },
+          {
+            "label": "C13",
+            "paired_n": 244,
+            "alpha": 1.0,
+            "kappa": 1.0,
+            "agreement": 1.0,
+            "positive_agreement_F1": 1.0,
+            "alpha_ci95": [
+              1.0,
+              1.0
+            ],
+            "valid_bootstrap": 1918,
+            "confusion_00_01_10_11": [
+              237,
+              0,
+              0,
+              7
+            ],
+            "human_yes": 7,
+            "model_yes": 7
+          },
+          {
+            "label": "C14",
+            "paired_n": 244,
+            "alpha": 0.8825203840401409,
+            "kappa": 0.8823302469135804,
+            "agreement": 0.9795081967213115,
+            "positive_agreement_F1": 0.8936170212765957,
+            "alpha_ci95": [
+              0.6863523304944873,
+              1.0
+            ],
+            "valid_bootstrap": 2000,
+            "confusion_00_01_10_11": [
+              218,
+              4,
+              1,
+              21
+            ],
+            "human_yes": 22,
+            "model_yes": 25
+          },
+          {
+            "label": "C15",
+            "paired_n": 241,
+            "alpha": 0.6566738044254103,
+            "kappa": 0.657183499288762,
+            "agreement": 0.979253112033195,
+            "positive_agreement_F1": 0.6666666666666666,
+            "alpha_ci95": [
+              0.20988427026418713,
+              0.8870331709580144
+            ],
+            "valid_bootstrap": 2000,
+            "confusion_00_01_10_11": [
+              231,
+              5,
+              0,
+              5
+            ],
+            "human_yes": 5,
+            "model_yes": 10
+          }
+        ],
+        "rater_order": [
+          "archived_human_rejudgment",
+          "GPT6"
+        ]
+      },
+      "G5_common_legacy_mapping": {
+        "positions": 244,
+        "sources": 50,
+        "paired_cells": 1217,
+        "excluded_cells": 3,
+        "macro_alpha": 0.7415656408152227,
+        "macro_alpha_ci95": [
+          0.6898356243546229,
+          0.7854006070972644
+        ],
+        "macro_alpha_finite_labels": 5,
+        "micro_agreement": 0.9022185702547247,
+        "micro_positive_agreement_F1": 0.8363136176066025,
+        "complete_set_positions": 241,
+        "exact_set_agreement": 0.6141078838174274,
+        "mean_set_jaccard": 0.7973029045643154,
+        "per_label": [
+          {
+            "label": "G1",
+            "paired_n": 241,
+            "alpha": 0.7153648008911166,
+            "kappa": 0.7147730437204121,
+            "agreement": 0.8589211618257261,
+            "positive_agreement_F1": 0.8721804511278195,
+            "alpha_ci95": [
+              0.6007193994734749,
+              0.8249861207420227
+            ],
+            "valid_bootstrap": 2000,
+            "confusion_00_01_10_11": [
+              91,
+              17,
+              17,
+              116
+            ],
+            "human_yes": 133,
+            "model_yes": 133
+          },
+          {
+            "label": "G2",
+            "paired_n": 244,
+            "alpha": 0.615063233965673,
+            "kappa": 0.6171548117154813,
+            "agreement": 0.8278688524590164,
+            "positive_agreement_F1": 0.7439024390243902,
+            "alpha_ci95": [
+              0.485841048792447,
+              0.7290236041048733
+            ],
+            "valid_bootstrap": 2000,
+            "confusion_00_01_10_11": [
+              141,
+              31,
+              11,
+              61
+            ],
+            "human_yes": 72,
+            "model_yes": 92
+          },
+          {
+            "label": "G3",
+            "paired_n": 244,
+            "alpha": 0.8076204840910723,
+            "kappa": 0.8073499856445593,
+            "agreement": 0.9098360655737705,
+            "positive_agreement_F1": 0.8791208791208791,
+            "alpha_ci95": [
+              0.679686017805834,
+              0.9175744154498947
+            ],
+            "valid_bootstrap": 2000,
+            "confusion_00_01_10_11": [
+              142,
+              14,
+              8,
+              80
+            ],
+            "human_yes": 88,
+            "model_yes": 94
+          },
+          {
+            "label": "G4",
+            "paired_n": 244,
+            "alpha": 0.7507166257166258,
+            "kappa": 0.750255885363357,
+            "agreement": 0.9590163934426229,
+            "positive_agreement_F1": 0.7727272727272727,
+            "alpha_ci95": [
+              0.5789545032527703,
+              0.8861588973203225
+            ],
+            "valid_bootstrap": 2000,
+            "confusion_00_01_10_11": [
+              217,
+              6,
+              4,
+              17
+            ],
+            "human_yes": 21,
+            "model_yes": 23
+          },
+          {
+            "label": "G5",
+            "paired_n": 244,
+            "alpha": 0.8190630594116256,
+            "kappa": 0.8188444924406048,
+            "agreement": 0.9549180327868853,
+            "positive_agreement_F1": 0.8450704225352113,
+            "alpha_ci95": [
+              0.6775337642353452,
+              0.9186348470915502
+            ],
+            "valid_bootstrap": 2000,
+            "confusion_00_01_10_11": [
+              203,
+              8,
+              3,
+              30
+            ],
+            "human_yes": 33,
+            "model_yes": 38
+          }
+        ],
+        "rater_order": [
+          "archived_human_rejudgment",
+          "GPT6"
+        ]
+      },
+      "outcome_exact_task_match": {
+        "candidate_n": 40,
+        "paired_n": 40,
+        "excluded_n": 0,
+        "agreement": 0.65,
+        "kappa": 0.4838709677419355,
+        "kappa_ci95": [
+          0.2951471252682706,
+          0.6794443455031166
+        ],
+        "alpha": 0.4664737095996141,
+        "labels": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "confusion_GPT_rows_DeepSeek_cols": [
+          [
+            12,
+            2,
+            0,
+            0
+          ],
+          [
+            1,
+            12,
+            0,
+            0
+          ],
+          [
+            4,
+            7,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            2
+          ]
+        ]
+      },
+      "task_boundary_unmatched": [
+        "B002",
+        "B005",
+        "B009",
+        "B016",
+        "B025",
+        "B031",
+        "B041",
+        "B044",
+        "B046",
+        "B047"
+      ]
+    },
+    "DeepSeekFlash": {
+      "C15": {
+        "positions": 244,
+        "sources": 50,
+        "paired_cells": 3652,
+        "excluded_cells": 8,
+        "macro_alpha": 0.7282255519302738,
+        "macro_alpha_ci95": [
+          0.6555809580006802,
+          0.7660231944587299
+        ],
+        "macro_alpha_finite_labels": 15,
+        "micro_agreement": 0.9490690032858707,
+        "micro_positive_agreement_F1": 0.7615384615384615,
+        "complete_set_positions": 236,
+        "exact_set_agreement": 0.4872881355932203,
+        "mean_set_jaccard": 0.7009180790960451,
+        "per_label": [
+          {
+            "label": "C01",
+            "paired_n": 244,
+            "alpha": 0.638857990359659,
+            "kappa": 0.6402506450423884,
+            "agreement": 0.8688524590163934,
+            "positive_agreement_F1": 0.7241379310344828,
+            "alpha_ci95": [
+              0.48522810298552205,
+              0.7630901726625864
+            ],
+            "valid_bootstrap": 2000,
+            "confusion_00_01_10_11": [
+              170,
+              8,
+              24,
+              42
+            ],
+            "human_yes": 66,
+            "model_yes": 50
+          },
+          {
+            "label": "C02",
+            "paired_n": 243,
+            "alpha": 0.6813325870586231,
+            "kappa": 0.6847340348853971,
+            "agreement": 0.8888888888888888,
+            "positive_agreement_F1": 0.7522935779816514,
+            "alpha_ci95": [
+              0.5234323406538695,
+              0.8442698560344505
+            ],
+            "valid_bootstrap": 2000,
+            "confusion_00_01_10_11": [
+              175,
+              2,
+              25,
+              41
+            ],
+            "human_yes": 66,
+            "model_yes": 43
+          },
+          {
+            "label": "C03",
+            "paired_n": 244,
+            "alpha": 0.7605703048180924,
+            "kappa": 0.7606082904096146,
+            "agreement": 0.9672131147540983,
+            "positive_agreement_F1": 0.7777777777777778,
+            "alpha_ci95": [
+              0.591373628476545,
+              0.8962391112507376
+            ],
+            "valid_bootstrap": 2000,
+            "confusion_00_01_10_11": [
+              222,
+              1,
+              7,
+              14
+            ],
+            "human_yes": 21,
+            "model_yes": 15
+          },
+          {
+            "label": "C04",
+            "paired_n": 244,
+            "alpha": 0.7940803382663848,
+            "kappa": 0.7939189189189196,
+            "agreement": 0.9877049180327869,
+            "positive_agreement_F1": 0.8,
+            "alpha_ci95": [
+              0.32675188944755396,
+              1.0
+            ],
+            "valid_bootstrap": 1995,
+            "confusion_00_01_10_11": [
+              235,
+              0,
+              3,
+              6
+            ],
+            "human_yes": 9,
+            "model_yes": 6
+          },
+          {
+            "label": "C05",
+            "paired_n": 244,
+            "alpha": 0.6011466011466011,
+            "kappa": 0.6006546644844519,
+            "agreement": 0.9344262295081968,
+            "positive_agreement_F1": 0.6363636363636364,
+            "alpha_ci95": [
+              0.3577369627248519,
+              0.7580326645773543
+            ],
+            "valid_bootstrap": 2000,
+            "confusion_00_01_10_11": [
+              214,
+              6,
+              10,
+              14
+            ],
+            "human_yes": 24,
+            "model_yes": 20
+          },
+          {
+            "label": "C06",
+            "paired_n": 243,
+            "alpha": 0.6180901884613366,
+            "kappa": 0.6189231573444847,
+            "agreement": 0.9382716049382716,
+            "positive_agreement_F1": 0.6511627906976745,
+            "alpha_ci95": [
+              0.4332447236398466,
+              0.7839729074367807
+            ],
+            "valid_bootstrap": 2000,
+            "confusion_00_01_10_11": [
+              214,
+              12,
+              3,
+              14
+            ],
+            "human_yes": 17,
+            "model_yes": 26
+          },
+          {
+            "label": "C07",
+            "paired_n": 244,
+            "alpha": 0.7999494422852087,
+            "kappa": 0.7995449949443882,
+            "agreement": 0.9467213114754098,
+            "positive_agreement_F1": 0.8311688311688312,
+            "alpha_ci95": [
+              0.6588894086665891,
+              0.9044714350498541
+            ],
+            "valid_bootstrap": 2000,
+            "confusion_00_01_10_11": [
+              199,
+              7,
+              6,
+              32
+            ],
+            "human_yes": 38,
+            "model_yes": 39
+          },
+          {
+            "label": "C08",
+            "paired_n": 244,
+            "alpha": 0.772323515661524,
+            "kappa": 0.7723880597014929,
+            "agreement": 0.9795081967213115,
+            "positive_agreement_F1": 0.782608695652174,
+            "alpha_ci95": [
+              0.23922666728763037,
+              0.9655613091909632
+            ],
+            "valid_bootstrap": 2000,
+            "confusion_00_01_10_11": [
+              230,
+              5,
+              0,
+              9
+            ],
+            "human_yes": 9,
+            "model_yes": 14
+          },
+          {
+            "label": "C09",
+            "paired_n": 241,
+            "alpha": 0.8057798800184587,
+            "kappa": 0.8053985465451609,
+            "agreement": 0.941908713692946,
+            "positive_agreement_F1": 0.8409090909090909,
+            "alpha_ci95": [
+              0.675577290539884,
+              0.9168439957107328
+            ],
+            "valid_bootstrap": 2000,
+            "confusion_00_01_10_11": [
+              190,
+              8,
+              6,
+              37
+            ],
+            "human_yes": 43,
+            "model_yes": 45
+          },
+          {
+            "label": "C10",
+            "paired_n": 241,
+            "alpha": 0.8216347936642475,
+            "kappa": 0.821273439983049,
+            "agreement": 0.970954356846473,
+            "positive_agreement_F1": 0.8372093023255814,
+            "alpha_ci95": [
+              0.6882123987959977,
+              0.960302425560222
+            ],
+            "valid_bootstrap": 2000,
+            "confusion_00_01_10_11": [
+              216,
+              3,
+              4,
+              18
+            ],
+            "human_yes": 22,
+            "model_yes": 21
+          },
+          {
+            "label": "C11",
+            "paired_n": 244,
+            "alpha": 0.6022922474726141,
+            "kappa": 0.6020247469066368,
+            "agreement": 0.8811475409836066,
+            "positive_agreement_F1": 0.6741573033707865,
+            "alpha_ci95": [
+              0.41932254150702425,
+              0.7474838692475869
+            ],
+            "valid_bootstrap": 2000,
+            "confusion_00_01_10_11": [
+              185,
+              11,
+              18,
+              30
+            ],
+            "human_yes": 48,
+            "model_yes": 41
+          },
+          {
+            "label": "C12",
+            "paired_n": 244,
+            "alpha": 0.6906190442577822,
+            "kappa": 0.6910523353967363,
+            "agreement": 0.9631147540983607,
+            "positive_agreement_F1": 0.7096774193548387,
+            "alpha_ci95": [
+              0.3992680915392705,
+              0.891529736045477
+            ],
+            "valid_bootstrap": 2000,
+            "confusion_00_01_10_11": [
+              224,
+              1,
+              8,
+              11
+            ],
+            "human_yes": 19,
+            "model_yes": 12
+          },
+          {
+            "label": "C13",
+            "paired_n": 244,
+            "alpha": 1.0,
+            "kappa": 1.0,
+            "agreement": 1.0,
+            "positive_agreement_F1": 1.0,
+            "alpha_ci95": [
+              1.0,
+              1.0
+            ],
+            "valid_bootstrap": 1918,
+            "confusion_00_01_10_11": [
+              237,
+              0,
+              0,
+              7
+            ],
+            "human_yes": 7,
+            "model_yes": 7
+          },
+          {
+            "label": "C14",
+            "paired_n": 244,
+            "alpha": 0.9480034166132821,
+            "kappa": 0.9479077711357813,
+            "agreement": 0.9918032786885246,
+            "positive_agreement_F1": 0.9523809523809523,
+            "alpha_ci95": [
+              0.855291318855172,
+              1.0
+            ],
+            "valid_bootstrap": 2000,
+            "confusion_00_01_10_11": [
+              222,
+              0,
+              2,
+              20
+            ],
+            "human_yes": 22,
+            "model_yes": 20
+          },
+          {
+            "label": "C15",
+            "paired_n": 244,
+            "alpha": 0.3887029288702929,
+            "kappa": 0.3874476987447687,
+            "agreement": 0.9754098360655737,
+            "positive_agreement_F1": 0.4,
+            "alpha_ci95": [
+              -0.013308253817982401,
+              0.6660915562792167
+            ],
+            "valid_bootstrap": 2000,
+            "confusion_00_01_10_11": [
+              236,
+              3,
+              3,
+              2
+            ],
+            "human_yes": 5,
+            "model_yes": 5
+          }
+        ],
+        "rater_order": [
+          "archived_human_rejudgment",
+          "DeepSeekFlash"
+        ]
+      },
+      "G5_common_legacy_mapping": {
+        "positions": 244,
+        "sources": 50,
+        "paired_cells": 1213,
+        "excluded_cells": 7,
+        "macro_alpha": 0.7625828813512499,
+        "macro_alpha_ci95": [
+          0.7092657714273477,
+          0.8111504407314971
+        ],
+        "macro_alpha_finite_labels": 5,
+        "micro_agreement": 0.9150865622423743,
+        "micro_positive_agreement_F1": 0.8478581979320532,
+        "complete_set_positions": 237,
+        "exact_set_agreement": 0.6835443037974683,
+        "mean_set_jaccard": 0.8171589310829817,
+        "per_label": [
+          {
+            "label": "G1",
+            "paired_n": 243,
+            "alpha": 0.7120392203430084,
+            "kappa": 0.7125426707675667,
+            "agreement": 0.8559670781893004,
+            "positive_agreement_F1": 0.8616600790513834,
+            "alpha_ci95": [
+              0.5869875455736584,
+              0.8222014888885771
+            ],
+            "valid_bootstrap": 2000,
+            "confusion_00_01_10_11": [
+              99,
+              10,
+              25,
+              109
+            ],
+            "human_yes": 134,
+            "model_yes": 119
+          },
+          {
+            "label": "G2",
+            "paired_n": 243,
+            "alpha": 0.7134021430822566,
+            "kappa": 0.7133757961783439,
+            "agreement": 0.8765432098765432,
+            "positive_agreement_F1": 0.8026315789473685,
+            "alpha_ci95": [
+              0.6074574808956733,
+              0.7975979234788365
+            ],
+            "valid_bootstrap": 2000,
+            "confusion_00_01_10_11": [
+              152,
+              20,
+              10,
+              61
+            ],
+            "human_yes": 71,
+            "model_yes": 81
+          },
+          {
+            "label": "G3",
+            "paired_n": 242,
+            "alpha": 0.8371300112401648,
+            "kappa": 0.8369028006589786,
+            "agreement": 0.9256198347107438,
+            "positive_agreement_F1": 0.8941176470588236,
+            "alpha_ci95": [
+              0.7366850405564378,
+              0.926483100535713
+            ],
+            "valid_bootstrap": 2000,
+            "confusion_00_01_10_11": [
+              148,
+              6,
+              12,
+              76
+            ],
+            "human_yes": 88,
+            "model_yes": 82
+          },
+          {
+            "label": "G4",
+            "paired_n": 244,
+            "alpha": 0.7605703048180924,
+            "kappa": 0.7606082904096146,
+            "agreement": 0.9672131147540983,
+            "positive_agreement_F1": 0.7777777777777778,
+            "alpha_ci95": [
+              0.591373628476545,
+              0.8962391112507376
+            ],
+            "valid_bootstrap": 2000,
+            "confusion_00_01_10_11": [
+              222,
+              1,
+              7,
+              14
+            ],
+            "human_yes": 21,
+            "model_yes": 15
+          },
+          {
+            "label": "G5",
+            "paired_n": 241,
+            "alpha": 0.7897727272727273,
+            "kappa": 0.7894583576004658,
+            "agreement": 0.950207468879668,
+            "positive_agreement_F1": 0.8181818181818182,
+            "alpha_ci95": [
+              0.6401557653149615,
+              0.9119524997407747
+            ],
+            "valid_bootstrap": 2000,
+            "confusion_00_01_10_11": [
+              202,
+              8,
+              4,
+              27
+            ],
+            "human_yes": 31,
+            "model_yes": 35
+          }
+        ],
+        "rater_order": [
+          "archived_human_rejudgment",
+          "DeepSeekFlash"
+        ]
+      },
+      "outcome_exact_task_match": {
+        "candidate_n": 34,
+        "paired_n": 34,
+        "excluded_n": 0,
+        "agreement": 0.6470588235294118,
+        "kappa": 0.48872180451127817,
+        "kappa_ci95": [
+          0.2635379061371841,
+          0.6991150442477876
+        ],
+        "alpha": 0.47519582245430814,
+        "labels": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "confusion_GPT_rows_DeepSeek_cols": [
+          [
+            9,
+            1,
+            0,
+            0
+          ],
+          [
+            3,
+            9,
+            0,
+            0
+          ],
+          [
+            6,
+            2,
+            3,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            1
+          ]
+        ]
+      },
+      "task_boundary_unmatched": [
+        "B002",
+        "B006",
+        "B007",
+        "B009",
+        "B010",
+        "B011",
+        "B013",
+        "B016",
+        "B023",
+        "B024",
+        "B025",
+        "B031",
+        "B040",
+        "B041",
+        "B045",
+        "B046"
+      ]
+    }
+  }
+}
